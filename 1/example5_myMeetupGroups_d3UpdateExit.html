@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+  <meta charset="utf-8"> <!-- also save this file as unicode-8 ! -->
+  <head>
+    <script src="http://d3js.org/d3.v3.js"></script>
+  </head>
+  
+  <body>
+    
+    <h1>My meetup groups are:</h1>
+    
+    <script>
+      var meetupGroups = ["Big Data", "Big Data Developers", "Streaming Big Data"];
+      
+      function display(mydata){
+        var anchor = d3.select("body");
+        
+        selection = anchor.selectAll("p")
+          .data(mydata);
+          
+        selection.text(function (d) { return d + " - updated";}); // update selection
+        
+        selection.enter() // enter selection
+          .append("p")
+          .text(function (d) { return d + " - entered";});
+          
+        selection.exit() // exit selection
+          .remove();
+      }
+      
+      display(meetupGroups);
+      meetupGroups.push("Data Visualization in Munich Meetup"); // adding this meetup to the array
+      display(meetupGroups);
+      meetupGroups.pop(); // deleting the last element "Data Visualization in Munich Meetup" from array  
+      display(meetupGroups);
+      
+    </script>
+  </body>
+</html>   
