@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+  <meta charset="utf-8"> <!-- also save this file as unicode-8 ! -->
+  <head>
+    <script src="http://d3js.org/d3.v3.js"></script>
+  </head>
+  
+  <body>
+    
+    <h1>My meetup groups are:</h1>
+    <svg width="500" height="500"></svg>
+    
+    <script>
+      var meetupGroupSizes = [1943, 1073, 297];
+      
+      function display(mydata){
+        var anchor = d3.select("svg");
+        
+        selection = anchor.selectAll("circle")
+          .data(mydata);
+          
+        selection.style("fill", "orange"); // update selection
+        
+        selection.enter() // enter selection
+          .append("circle")
+          .attr("cx", function (d, i) { return (i + 1) * 100;})
+          .attr("cy", 300)
+          .attr("r", 0)
+          .style("fill", "white")
+          .transition()
+          .delay( function(d, i) { return i * 500;} )
+          .duration(2000)
+          .attr("r", function(d) { return Math.sqrt(d / Math.PI);})
+          .style("fill", "steelblue");
+          
+        selection.exit() // exit selection
+          .remove();
+      }
+      
+      display(meetupGroupSizes);
+      
+    </script>
+  </body>
+</html>   
