@@ -51,3 +51,11 @@
 * https://www.evogeneao.com/learn/tree-of-life		
 * https://informationisbeautiful.net/visualizations/the-drake-equation/		
 * https://www.canva.com/learn/100-color-combinations/		
+
+### Meetup #10
+* https://observablehq.com/@nitaku/tangled-tree-visualization-ii
+* https://datavizsociety.slack.com/
+* https://beta.observablehq.com/@harrystevens/directly-labelling-lines
+* https://i.redd.it/tfm29xqmo4c21.png
+* https://gramener.github.io/visual-vocabulary-vega/#
+* https://datavizcatalogue.com/
