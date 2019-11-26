@@ -59,3 +59,19 @@
 * https://i.redd.it/tfm29xqmo4c21.png
 * https://gramener.github.io/visual-vocabulary-vega/#
 * https://datavizcatalogue.com/
+
+### Meetup #11
+* http://boringbarchart.com/influential-painters-of-our-history/
+* https://data.london.gov.uk/blog/city-intelligence-data-design-guidelines/
+* https://www.youtube.com/watch?v=gM-1H0lsOJA
+* https://www.nytimes.com/interactive/2019/04/14/upshot/spanish-grand-prix.html?mtrref=getpocket.com&mtrref=www.nytimes.com
+* https://smallmultiples.com.au/projects/how-to-plan-a-holiday-using-data/
+
+### Meetup #12
+* https://www.nytimes.com/interactive/2019/08/23/opinion/data-internet-privacy-tracking.html 
+* https://www.swissinfo.ch/eng/2019-elections_what-people-in-switzerland-worry-about/44997722
+* https://graphics.reuters.com/JAPAN-AGING/010091PB2LH/index.html
+* https://www.smh.com.au/interactive/2019/are-we-failing-victims-of-sexual-violence/
+* https://pair-code.github.io/understanding-umap/
+* https://blogs.worldbank.org/opendata/visualizing-risk-announcing-winners-vizrisk-2019-challenge
+ 
