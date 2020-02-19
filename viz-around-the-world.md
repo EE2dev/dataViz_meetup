@@ -75,3 +75,10 @@
 * https://pair-code.github.io/understanding-umap/
 * https://blogs.worldbank.org/opendata/visualizing-risk-announcing-winners-vizrisk-2019-challenge
  
+
+### Meetup #13
+* https://www.nytimes.com/interactive/2019/02/13/climate/cut-us-emissions-with-policies-from-other-countries.html
+* https://graphics.reuters.com/ENVIRONMENT-PLASTIC/0100B275155/index.html
+* https://codex-atlanticus.it/#/Overview
+* https://www.nationalgeographic.com/science/2019/07/the-atlas-of-moons/
+* https://app.rawgraphs.io/
