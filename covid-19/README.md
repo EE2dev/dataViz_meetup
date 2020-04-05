@@ -15,9 +15,8 @@ The original data sources for the data are:
 ### 1.2 Data description
 
 #### corona_bavaria_daily_infected.csv
-The data file has been manually created and collected from the Bayerisches Landesamt für Gesundheit und Lebensmittelsicherheit (LGL) which is the official source for the state of Bavaria. Each row corresponds to one day, each column represents a *Landkreis* or a *kreisfreie Stadt* in Bavaria. Each value depicts the published number of infected people in that *Landkreis*. 
+The data file has been manually created and collected from the Bayerisches Landesamt für Gesundheit und Lebensmittelsicherheit (LGL) which is the official source for reporting Covid-19 cases in the state of Bavaria. Each row corresponds to one day, each column represents a *Landkreis* or a *kreisfreie Stadt* in Bavaria. Each value depicts the published number of infected people in that *Landkreis*. 
 The data does not reflect the ground truth and can just be used as an indication due to several fundamental properties:
-It is created with much rigor, however, several properties should be known:
 - it just contains the subset of infected people which are tested and their test has been transmitted to the LGL.
 - the number of infected people are counted from day 1. It does not represent the number of infected people on a particular day since the people recovering are (typically) not subtracted.
 - this dataset is updated regularly (augmented by new cases)
