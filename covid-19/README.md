@@ -1,5 +1,5 @@
 # Covid-19 in Bavaria
-Data about the spread of the Covid-19 virus in Bavaria
+Data about the spread of the corona virus in Bavaria
 
 ## Data
 
