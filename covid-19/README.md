@@ -1,5 +1,8 @@
 # Covid-19 in Bavaria
-Data about the spread of the corona virus in Bavaria
+Data about the spread of the corona virus in Bavaria.
+
+Link to an observable notebook based on this data:
+- https://observablehq.com/@ee2dev/entwicklung-des-covid-19-viruses-in-bayern
 
 ## Data
 
