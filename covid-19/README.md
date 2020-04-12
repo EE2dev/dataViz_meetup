@@ -25,10 +25,26 @@ The data does not reflect the ground truth and can just be used as an indication
 - this dataset is updated regularly (augmented by new cases)
 
 #### landkreise_simplify200.geojson
-This file contains the shapes of each *Landkreis* and *kreisfreie Stadt* in GeoJSON as well as some statistics from destatis from http://opendatalab.de/projects/geojson-utilities/. Additional statistics and regional information has been added from wikipedia. 
+This file contains the shapes of each *Landkreis* and *kreisfreie Stadt* in GeoJSON as well as some statistics from destatis from http://opendatalab.de/projects/geojson-utilities/. 
+<br><br>
+Additional statistics and regional information has been added from wikipedia: For each object of the feature Array the following is added:
 
+- properties.wiki.png
+- properties.wiki.svg
+- properties.wiki.link
+- properties.wiki.Landkreis
+- properties.wiki.Landkreis_wiki
+- properties.wiki.Kreisstadt
+- properties.wiki.groesste_Gemeinde
+- properties.wiki.Regierungsbezirk
+- properties.wiki.KFZ 
+- properties.wiki.Einwohner
+- properties.wiki.Flaeche
+<br><br>
+Also a centroid in [Lat, Long] format is added to each geometry object. For MultiPolygon the centroid is calculated from the first Polygon (irrespective of holes)
 
 ### Potential future data sources (not used yet)
 
+- Number of deaths from https://www.lgl.bayern.de/gesundheit/infektionsschutz/infektionskrankheiten_a_z/coronavirus/karte_coronavirus/index.htm
 - https://www.divi.de/register/kartenansicht
 
