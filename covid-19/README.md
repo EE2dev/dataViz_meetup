@@ -18,11 +18,38 @@ The original data sources for the data are:
 ### 1.2 Data description
 
 #### corona_bavaria_daily_infected.csv
-The data file has been manually created and collected from the Bayerisches Landesamt für Gesundheit und Lebensmittelsicherheit (LGL) which is the official source for reporting Covid-19 cases in the state of Bavaria. Each row corresponds to one day, each column represents a *Landkreis* or a *kreisfreie Stadt* in Bavaria. Each value depicts the published number of infected people in that *Landkreis*. 
-The data does not reflect the ground truth and can just be used as an indication due to several fundamental properties:
+The data file has been manually created and collected from the Bayerisches Landesamt für Gesundheit und Lebensmittelsicherheit (LGL) which is the official source for reporting Covid-19 cases in the state of Bavaria. Each row corresponds to one day starting with January 27th, 2020. The first column **Datum** is a date (string) in the format ("27.1.2020"). The second column **_gesamt** ist the total count of cases per day. The third column **_unbekannt** are cases which could not be assigned to a district by the LGL. Each column (from column 4 onwards) represents a district (*Landkreis* or a *kreisfreie Stadt*) in Bavaria. Each value depicts the published number of infected people in that *Landkreis*. The separator is a "," (comma).
+
+Note:
+- the data does not reflect the ground truth and can just be used as an indication
 - it just contains the subset of infected people which are tested and their test has been transmitted to the LGL.
 - the number of infected people are counted from day 1. It does not represent the number of infected people on a particular day since the people recovering are (typically) not subtracted.
 - this dataset is updated regularly (augmented by new cases)
+
+Sample view:
+
+| Datum        | _gesamt          | _unbekannt  | Aichach-Friedberg	| Altötting  | ....|
+| ------------- |:-------------:| -----:| ------------- |:-------------:| -----:|
+| "27.1.2020"     | 1 | 0 |0 | 0 |... | 
+| "28.1.2020"     | 4 | 0 |0 | 0 |... | 
+| "29.1.2020"     | 4 | 0 |0 | 0 |... | 
+| ...     | ... |... |... |... |... | 
+
+#### corona_bavaria_daily_fatalities.csv
+The data file has been manually collected from the Bayerisches Landesamt für Gesundheit und Lebensmittelsicherheit (LGL) which is the official source for reporting Covid-19 cases in the state of Bavaria. Each row corresponds to one day starting with March 25th, 2020 which is the first day, theh LGL published corona related fatalities. The first column **Datum** is a date (string) in the format ("25.3.2020"). The second column **_gesamt** ist the total count of cases per day. The third column The second column **_unbekannt** are cases which could not be assigned to a district by the LGL. Each column (from column 4 onwards) represents a district (*Landkreis* or a *kreisfreie Stadt*) in Bavaria. Each value depicts the published number of fatalities in that *Landkreis*. The separator is a "," (comma).
+
+Note:
+- in few cases the number of deaths go down from one day to the other. Presumably, this happens mainly when a case has been assigned to the wrong *Landkreis* or *kreisfreie Stadt* before. Alternatively, a correction took place.
+- this dataset is updated regularly (augmented by new cases)
+
+Sample view:
+
+| Datum        | _gesamt          | _unbekannt  | Aichach-Friedberg	| Altötting  | ....|
+| ------------- |:-------------:| -----:| ------------- |:-------------:| -----:|
+| "25.3.2020"     | 41 | 0 |0 | 0 |...| 
+| "26.3.2020"     | 52 | 0 |0 | 0 |...| 
+| "27.3.2020"     | 59 | 0 |0 | 0 |...| 
+| ...     | ... |... |... |... |... | 
 
 #### landkreise_simplify200.geojson
 This file contains the shapes of each *Landkreis* and *kreisfreie Stadt* in GeoJSON as well as some statistics from destatis from http://opendatalab.de/projects/geojson-utilities/. 
