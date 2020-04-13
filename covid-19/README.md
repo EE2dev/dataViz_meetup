@@ -2,7 +2,7 @@
 Data about the spread of the corona virus in Bavaria.
 
 Link to an observable notebook based on this data:
-- https://observablehq.com/@ee2dev/entwicklung-des-covid-19-viruses-in-bayern
+- https://observablehq.com/@ee2dev/coronavirus-in-bayern/2
 
 ## Data
 
