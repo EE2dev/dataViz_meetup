@@ -36,7 +36,7 @@ Sample view:
 | ...     | ... |... |... |... |... | 
 
 #### corona_bavaria_daily_fatalities.csv
-The data file has been manually collected from the Bayerisches Landesamt für Gesundheit und Lebensmittelsicherheit (LGL) which is the official source for reporting Covid-19 cases in the state of Bavaria. Each row corresponds to one day starting with March 25th, 2020 which is the first day, theh LGL published corona related fatalities. The first column **Datum** is a date (string) in the format ("25.3.2020"). The second column **_gesamt** ist the total count of cases per day. The third column The second column **_unbekannt** are cases which could not be assigned to a district by the LGL. Each column (from column 4 onwards) represents a district (*Landkreis* or a *kreisfreie Stadt*) in Bavaria. Each value depicts the published number of fatalities in that *Landkreis*. The separator is a "," (comma).
+The data file has been manually collected from the Bayerisches Landesamt für Gesundheit und Lebensmittelsicherheit (LGL) which is the official source for reporting Covid-19 cases in the state of Bavaria. Each row corresponds to one day starting with March 25th, 2020 which is the first day, the LGL published corona related fatalities. The first column **Datum** is a date (string) in the format ("25.3.2020"). The second column **_gesamt** ist the total count of cases per day. The third column **_unbekannt** are cases which could not be assigned to a district by the LGL. Each column (from column 4 onwards) represents a district (*Landkreis* or a *kreisfreie Stadt*) in Bavaria. Each value depicts the published number of fatalities in that *Landkreis*. The separator is a "," (comma).
 
 Note:
 - in few cases the number of deaths go down from one day to the other. Presumably, this happens mainly when a case has been assigned to the wrong *Landkreis* or *kreisfreie Stadt* before. Alternatively, a correction took place.
@@ -72,6 +72,6 @@ Also a centroid in [Lat, Long] format is added to each geometry object. For Mult
 
 ### Potential future data sources (not used yet)
 
-- Number of deaths from https://www.lgl.bayern.de/gesundheit/infektionsschutz/infektionskrankheiten_a_z/coronavirus/karte_coronavirus/index.htm
+- https://npgeo-corona-npgeo-de.hub.arcgis.com/
 - https://www.divi.de/register/kartenansicht
 
