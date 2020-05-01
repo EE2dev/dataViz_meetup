@@ -75,4 +75,5 @@ Also a centroid in [Lat, Long] format is added to each geometry object. For Mult
 
 - https://npgeo-corona-npgeo-de.hub.arcgis.com/
 - https://www.divi.de/register/kartenansicht
+- https://statistik.arbeitsagentur.de/Navigation/Statistik/Statistik-nach-Regionen/Politische-Gebietsstruktur/Bayern-Nav.html
 
