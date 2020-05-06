@@ -14,6 +14,7 @@ The original data sources for the data are:
 - http://opendatalab.de/projects/geojson-utilities/
 - https://de.wikipedia.org/wiki/Liste_der_Landkreise_und_kreisfreien_St%C3%A4dte_in_Bayern
 - https://de.wikipedia.org/wiki/COVID-19-F%C3%A4lle_in_Deutschland
+- https://www.statistik.bayern.de/statistik/index.html
 
 ### 1.2 Data description
 
