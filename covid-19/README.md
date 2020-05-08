@@ -15,6 +15,7 @@ The original data sources for the data are:
 - https://de.wikipedia.org/wiki/Liste_der_Landkreise_und_kreisfreien_St%C3%A4dte_in_Bayern
 - https://de.wikipedia.org/wiki/COVID-19-F%C3%A4lle_in_Deutschland
 - https://www.statistik.bayern.de/statistik/index.html
+- https://npgeo-corona-npgeo-de.hub.arcgis.com/
 
 ### 1.2 Data description
 
@@ -55,6 +56,21 @@ Sample view:
 
 #### landkreise_simplify200.geojson
 This file contains the shapes of each *Landkreis* and *kreisfreie Stadt* in GeoJSON as well as some statistics from destatis from http://opendatalab.de/projects/geojson-utilities/. 
+Age groups are added to features.properties.destatis for:
+
+- population
+- population_m
+- population_w
+
+The age groups have the following intervals:
+
+- [0, 4]
+- [5, 4]
+- [15, 34]
+- [35, 59]
+- [60, 79]
+- [80, +]
+
 <br><br>
 Additional statistics and regional information has been added from wikipedia: For each object of the feature Array the following is added:
 
@@ -72,9 +88,13 @@ Additional statistics and regional information has been added from wikipedia: Fo
 <br><br>
 Also a centroid in [Lat, Long] format is added to each geometry object. For MultiPolygon the centroid is calculated from the first Polygon (irrespective of holes)
 
+#### RKI_COVID19_060520.csv
+
+
+Robert Koch-Institut (RKI), dl-de/by-2-0
+
 ### Potential future data sources (not used yet)
 
-- https://npgeo-corona-npgeo-de.hub.arcgis.com/
 - https://www.divi.de/register/kartenansicht
 - https://statistik.arbeitsagentur.de/Navigation/Statistik/Statistik-nach-Regionen/Politische-Gebietsstruktur/Bayern-Nav.html
 - https://www.statistikportal.de/de/corona
