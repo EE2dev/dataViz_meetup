@@ -1,0 +1,3 @@
+- [50 things you didn't know Excel can Do](https://www.youtube.com/watch?v=Tzuk3NH_u3I)
+- [Build Impressive Charts: It's NOT your usual Bar Chart (Infographics in Excel)](https://www.youtube.com/watch?v=8g9DK5noi1s)
+- [You Won't Believe These Crazy PIVOT TABLE Hacks!}(https://www.youtube.com/watch?v=ZZRl7fALdjw)
