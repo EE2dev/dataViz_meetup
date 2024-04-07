@@ -10,5 +10,6 @@
 - [High-Income Excel Skills Worth Learning in 2024 (Free File)](https://www.youtube.com/watch?v=McLQ3gEGbHQ)
 
 ### colorIndex
-(for custom format use, e.g. index = 10: [color10] in German: [Farbe10]
+for custom format use, e.g. index = 10: [color10] in German: [Farbe10]
+
 ![color index chart](excel_colorIndex.gif)
