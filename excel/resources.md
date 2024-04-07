@@ -8,3 +8,6 @@
 - [20 Excel Shortcuts to Save You HOURS of Work](https://www.youtube.com/watch?v=lfW8Z0KDpAI)
 - [Introducing Python in Excel](https://www.youtube.com/watch?v=FbBXtqtRnWU)
 - [High-Income Excel Skills Worth Learning in 2024 (Free File)](https://www.youtube.com/watch?v=McLQ3gEGbHQ)
+
+### colorIndex
+![color index chart](excel_colorIndex.gif)
