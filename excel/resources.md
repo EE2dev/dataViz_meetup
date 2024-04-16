@@ -8,6 +8,7 @@
 - [20 Excel Shortcuts to Save You HOURS of Work](https://www.youtube.com/watch?v=lfW8Z0KDpAI)
 - [Introducing Python in Excel](https://www.youtube.com/watch?v=FbBXtqtRnWU)
 - [High-Income Excel Skills Worth Learning in 2024 (Free File)](https://www.youtube.com/watch?v=McLQ3gEGbHQ)
+- [McKinsey Charts with the REPT function](https://www.youtube.com/watch?v=-Pi68IkutaQ)
 
 ### colorIndex
 for custom format use, e.g. index = 10: [color10] in German: [Farbe10]
