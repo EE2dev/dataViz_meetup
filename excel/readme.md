@@ -10,7 +10,8 @@
 - [High-Income Excel Skills Worth Learning in 2024 (Free File)](https://www.youtube.com/watch?v=McLQ3gEGbHQ)
 - [McKinsey Charts with the REPT function](https://www.youtube.com/watch?v=-Pi68IkutaQ)
 - [Do This in Excel to Save Hours of Time (99% of People Don't Know It)](https://www.youtube.com/watch?v=bX4hLeewM1A)
-
+- [Make an Interactive Excel Dashboard in 4 Simple Steps!](https://www.youtube.com/watch?v=GW6ZjK_9H6A)
+  
 ### colorIndex
 for custom format use, e.g. index = 10: [color10] in German: [Farbe10]
 
