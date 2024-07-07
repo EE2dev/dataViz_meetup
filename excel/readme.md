@@ -12,6 +12,7 @@
 - [Do This in Excel to Save Hours of Time (99% of People Don't Know It)](https://www.youtube.com/watch?v=bX4hLeewM1A)
 - [Make an Interactive Excel Dashboard in 4 Simple Steps!](https://www.youtube.com/watch?v=GW6ZjK_9H6A)
 - [5 Ways to Select Multiple Shapes](https://www.excelcampus.com/charts/select-multiple-shapes/)
+- [Dumbbell chart](https://www.youtube.com/watch?v=vokgZ8nYuw0)
   
 ### colorIndex
 for custom format use, e.g. index = 10: [color10] in German: [Farbe10]
