@@ -47,19 +47,279 @@
               ],
               "comments": [
                 "fork, development"
-              ]
-            },
-            {
-              "name": "2... Nc6",
-              "san": "Nc6",
-              "ply": "b",
-              "moveNumber": 2,
+              ],
               "children": [
                 {
-                  "name": "2... d6",
-                  "san": "d6",
+                  "name": "2. Ne2",
+                  "san": "Ne2",
+                  "ply": "w",
+                  "moveNumber": 2,
+                  "nags": [
+                    "$10"
+                  ],
+                  "comments": [
+                    "fork, development"
+                  ]
+                },
+                {
+                  "name": "2... a6",
+                  "san": "a6",
                   "ply": "b",
                   "moveNumber": 2,
+                  "children": [
+                    {
+                      "name": "2... Nf6",
+                      "san": "Nf6",
+                      "ply": "b",
+                      "moveNumber": 2,
+                      "nags": [
+                        "$10"
+                      ],
+                      "comments": [
+                        "fork, development"
+                      ],
+                      "children": [
+                        {
+                          "name": "2... d5",
+                          "san": "d5",
+                          "ply": "b",
+                          "moveNumber": 2,
+                          "nags": [
+                            "$10"
+                          ],
+                          "comments": [
+                            "fork, center control"
+                          ]
+                        },
+                        {
+                          "name": "3. exd5",
+                          "san": "exd5",
+                          "ply": "w",
+                          "moveNumber": 3,
+                          "children": [
+                            {
+                              "name": "3. d4",
+                              "san": "d4",
+                              "ply": "w",
+                              "moveNumber": 3,
+                              "nags": [
+                                "$10"
+                              ],
+                              "comments": [
+                                "fork, center control"
+                              ]
+                            }
+                          ],
+                          "nags": [
+                            "$10"
+                          ],
+                          "comments": [
+                            "fork, center control"
+                          ]
+                        },
+                        {
+                          "name": "3... Nf6",
+                          "san": "Nf6",
+                          "ply": "b",
+                          "moveNumber": 3,
+                          "children": [
+                            {
+                              "name": "3... Qxd5",
+                              "san": "Qxd5",
+                              "ply": "b",
+                              "moveNumber": 3,
+                              "nags": [
+                                "$1"
+                              ],
+                              "comments": [
+                                "fork, center control"
+                              ],
+                              "children": [
+                                {
+                                  "name": "3... e6",
+                                  "san": "e6",
+                                  "ply": "b",
+                                  "moveNumber": 3,
+                                  "nags": [
+                                    "$1"
+                                  ],
+                                  "comments": [
+                                    "fork"
+                                  ]
+                                }
+                              ]
+                            }
+                          ],
+                          "nags": [
+                            "$10"
+                          ],
+                          "comments": [
+                            "fork, development"
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "name": "3. Nbc3",
+                      "san": "Nbc3",
+                      "ply": "w",
+                      "moveNumber": 3,
+                      "children": [
+                        {
+                          "name": "3. e5",
+                          "san": "e5",
+                          "ply": "w",
+                          "moveNumber": 3,
+                          "nags": [
+                            "$10"
+                          ],
+                          "comments": [
+                            "fork, center control"
+                          ],
+                          "children": [
+                            {
+                              "name": "3. d3",
+                              "san": "d3",
+                              "ply": "w",
+                              "moveNumber": 3,
+                              "nags": [
+                                "$10"
+                              ],
+                              "comments": [
+                                "fork"
+                              ]
+                            },
+                            {
+                              "name": "3... Nc6",
+                              "san": "Nc6",
+                              "ply": "b",
+                              "moveNumber": 3,
+                              "children": [
+                                {
+                                  "name": "3... g6",
+                                  "san": "g6",
+                                  "ply": "b",
+                                  "moveNumber": 3,
+                                  "nags": [
+                                    "$10"
+                                  ],
+                                  "comments": [
+                                    "fork"
+                                  ],
+                                  "children": [
+                                    {
+                                      "name": "3... d5",
+                                      "san": "d5",
+                                      "ply": "b",
+                                      "moveNumber": 3,
+                                      "nags": [
+                                        "$10"
+                                      ],
+                                      "comments": [
+                                        "fork, center control"
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ],
+                              "nags": [
+                                "$10"
+                              ],
+                              "comments": [
+                                "fork, development"
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "name": "3... Ng4",
+                          "san": "Ng4",
+                          "ply": "b",
+                          "moveNumber": 3,
+                          "children": [
+                            {
+                              "name": "3... Nd5",
+                              "san": "Nd5",
+                              "ply": "b",
+                              "moveNumber": 3,
+                              "nags": [
+                                "$10"
+                              ],
+                              "comments": [
+                                "fork, center control"
+                              ],
+                              "children": [
+                                {
+                                  "name": "3... Ng8",
+                                  "san": "Ng8",
+                                  "ply": "b",
+                                  "moveNumber": 3,
+                                  "nags": [
+                                    "$10"
+                                  ],
+                                  "comments": [
+                                    "fork"
+                                  ]
+                                }
+                              ]
+                            }
+                          ],
+                          "nags": [
+                            "$10"
+                          ],
+                          "comments": [
+                            "fork"
+                          ]
+                        }
+                      ],
+                      "nags": [
+                        "$10"
+                      ],
+                      "comments": [
+                        "fork, development"
+                      ]
+                    },
+                    {
+                      "name": "3... a6",
+                      "san": "a6",
+                      "ply": "b",
+                      "moveNumber": 3,
+                      "children": [
+                        {
+                          "name": "3... d5",
+                          "san": "d5",
+                          "ply": "b",
+                          "moveNumber": 3,
+                          "nags": [
+                            "$10"
+                          ],
+                          "comments": [
+                            "fork, center control"
+                          ],
+                          "children": [
+                            {
+                              "name": "3... e5",
+                              "san": "e5",
+                              "ply": "b",
+                              "moveNumber": 3,
+                              "nags": [
+                                "$10"
+                              ],
+                              "comments": [
+                                "fork, center control"
+                              ]
+                            }
+                          ]
+                        }
+                      ],
+                      "nags": [
+                        "$10"
+                      ],
+                      "comments": [
+                        "fork"
+                      ]
+                    }
+                  ],
                   "nags": [
                     "$10"
                   ],
@@ -74,8 +334,8 @@
                   "moveNumber": 3,
                   "children": [
                     {
-                      "name": "3. Nc3",
-                      "san": "Nc3",
+                      "name": "3. Nbc3",
+                      "san": "Nbc3",
                       "ply": "w",
                       "moveNumber": 3,
                       "nags": [
@@ -83,30 +343,12 @@
                       ],
                       "comments": [
                         "fork, development"
-                      ]
-                    },
-                    {
-                      "name": "3... e5",
-                      "san": "e5",
-                      "ply": "b",
-                      "moveNumber": 3,
+                      ],
                       "children": [
                         {
-                          "name": "3... Nf6",
-                          "san": "Nf6",
-                          "ply": "b",
-                          "moveNumber": 3,
-                          "nags": [
-                            "$10"
-                          ],
-                          "comments": [
-                            "fork, development"
-                          ]
-                        },
-                        {
-                          "name": "3... a6",
-                          "san": "a6",
-                          "ply": "b",
+                          "name": "3. c4",
+                          "san": "c4",
+                          "ply": "w",
                           "moveNumber": 3,
                           "nags": [
                             "$10"
@@ -114,25 +356,47 @@
                           "comments": [
                             "fork"
                           ]
+                        },
+                        {
+                          "name": "3... e5",
+                          "san": "e5",
+                          "ply": "b",
+                          "moveNumber": 3,
+                          "children": [
+                            {
+                              "name": "3... Nf6",
+                              "san": "Nf6",
+                              "ply": "b",
+                              "moveNumber": 3,
+                              "nags": [
+                                "$10"
+                              ],
+                              "comments": [
+                                "fork, development"
+                              ],
+                              "children": [
+                                {
+                                  "name": "3... e6",
+                                  "san": "e6",
+                                  "ply": "b",
+                                  "moveNumber": 3,
+                                  "nags": [
+                                    "$10"
+                                  ],
+                                  "comments": [
+                                    "fork"
+                                  ]
+                                }
+                              ]
+                            }
+                          ],
+                          "nags": [
+                            "$10"
+                          ],
+                          "comments": [
+                            "fork, center control"
+                          ]
                         }
-                      ],
-                      "nags": [
-                        "$10"
-                      ],
-                      "comments": [
-                        "fork, center control"
-                      ]
-                    },
-                    {
-                      "name": "3. Bc4",
-                      "san": "Bc4",
-                      "ply": "w",
-                      "moveNumber": 3,
-                      "nags": [
-                        "$10"
-                      ],
-                      "comments": [
-                        "fork, development"
                       ]
                     },
                     {
@@ -151,18 +415,20 @@
                           ],
                           "comments": [
                             "fork"
-                          ]
-                        },
-                        {
-                          "name": "3... a6",
-                          "san": "a6",
-                          "ply": "b",
-                          "moveNumber": 3,
-                          "nags": [
-                            "$10"
                           ],
-                          "comments": [
-                            "fork"
+                          "children": [
+                            {
+                              "name": "3... d6",
+                              "san": "d6",
+                              "ply": "b",
+                              "moveNumber": 3,
+                              "nags": [
+                                "$10"
+                              ],
+                              "comments": [
+                                "fork"
+                              ]
+                            }
                           ]
                         }
                       ],
@@ -171,6 +437,360 @@
                       ],
                       "comments": [
                         "fork, development"
+                      ]
+                    }
+                  ],
+                  "nags": [
+                    "$10"
+                  ],
+                  "comments": [
+                    "fork, center control"
+                  ]
+                },
+                {
+                  "name": "3... cxd4",
+                  "san": "cxd4",
+                  "ply": "b",
+                  "moveNumber": 3,
+                  "children": [
+                    {
+                      "name": "3... e6",
+                      "san": "e6",
+                      "ply": "b",
+                      "moveNumber": 3,
+                      "nags": [
+                        "$1"
+                      ],
+                      "comments": [
+                        "fork"
+                      ],
+                      "children": [
+                        {
+                          "name": "3... Qc7",
+                          "san": "Qc7",
+                          "ply": "b",
+                          "moveNumber": 3,
+                          "nags": [
+                            "$1"
+                          ],
+                          "comments": [
+                            "fork"
+                          ]
+                        }
+                      ]
+                    }
+                  ],
+                  "nags": [
+                    "$10"
+                  ],
+                  "comments": [
+                    "fork, center control"
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "2... Nc6",
+              "san": "Nc6",
+              "ply": "b",
+              "moveNumber": 2,
+              "children": [
+                {
+                  "name": "2... d6",
+                  "san": "d6",
+                  "ply": "b",
+                  "moveNumber": 2,
+                  "nags": [
+                    "$10"
+                  ],
+                  "comments": [
+                    "fork"
+                  ],
+                  "children": [
+                    {
+                      "name": "2... e6",
+                      "san": "e6",
+                      "ply": "b",
+                      "moveNumber": 2,
+                      "nags": [
+                        "$10"
+                      ],
+                      "comments": [
+                        "fork"
+                      ]
+                    },
+                    {
+                      "name": "3. d4",
+                      "san": "d4",
+                      "ply": "w",
+                      "moveNumber": 3,
+                      "children": [
+                        {
+                          "name": "3. Nc3",
+                          "san": "Nc3",
+                          "ply": "w",
+                          "moveNumber": 3,
+                          "nags": [
+                            "$10"
+                          ],
+                          "comments": [
+                            "fork, development"
+                          ],
+                          "children": [
+                            {
+                              "name": "3. Be2",
+                              "san": "Be2",
+                              "ply": "w",
+                              "moveNumber": 3,
+                              "nags": [
+                                "$10"
+                              ],
+                              "comments": [
+                                "fork, development"
+                              ]
+                            },
+                            {
+                              "name": "3... Nc6",
+                              "san": "Nc6",
+                              "ply": "b",
+                              "moveNumber": 3,
+                              "children": [
+                                {
+                                  "name": "3... d5",
+                                  "san": "d5",
+                                  "ply": "b",
+                                  "moveNumber": 3,
+                                  "nags": [
+                                    "$10"
+                                  ],
+                                  "comments": [
+                                    "fork, center control"
+                                  ],
+                                  "children": [
+                                    {
+                                      "name": "3... d6",
+                                      "san": "d6",
+                                      "ply": "b",
+                                      "moveNumber": 3,
+                                      "nags": [
+                                        "$10"
+                                      ],
+                                      "comments": [
+                                        "fork"
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ],
+                              "nags": [
+                                "$10"
+                              ],
+                              "comments": [
+                                "fork, development"
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "name": "3... Nc6",
+                          "san": "Nc6",
+                          "ply": "b",
+                          "moveNumber": 3,
+                          "children": [
+                            {
+                              "name": "3... a6",
+                              "san": "a6",
+                              "ply": "b",
+                              "moveNumber": 3,
+                              "nags": [
+                                "$10"
+                              ],
+                              "comments": [
+                                "fork"
+                              ],
+                              "children": [
+                                {
+                                  "name": "3... d6",
+                                  "san": "d6",
+                                  "ply": "b",
+                                  "moveNumber": 3,
+                                  "nags": [
+                                    "$1"
+                                  ],
+                                  "comments": [
+                                    "fork"
+                                  ]
+                                }
+                              ]
+                            }
+                          ],
+                          "nags": [
+                            "$10"
+                          ],
+                          "comments": [
+                            "fork, development"
+                          ]
+                        }
+                      ],
+                      "nags": [
+                        "$10"
+                      ],
+                      "comments": [
+                        "fork, center control"
+                      ]
+                    },
+                    {
+                      "name": "3... cxd4",
+                      "san": "cxd4",
+                      "ply": "b",
+                      "moveNumber": 3,
+                      "children": [
+                        {
+                          "name": "3... a6",
+                          "san": "a6",
+                          "ply": "b",
+                          "moveNumber": 3,
+                          "nags": [
+                            "$1"
+                          ],
+                          "comments": [
+                            "fork"
+                          ],
+                          "children": [
+                            {
+                              "name": "3... d5",
+                              "san": "d5",
+                              "ply": "b",
+                              "moveNumber": 3,
+                              "nags": [
+                                "$1"
+                              ],
+                              "comments": [
+                                "fork, center control"
+                              ]
+                            }
+                          ]
+                        }
+                      ],
+                      "nags": [
+                        "$10"
+                      ],
+                      "comments": [
+                        "fork, center control"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "name": "3. d4",
+                  "san": "d4",
+                  "ply": "w",
+                  "moveNumber": 3,
+                  "children": [
+                    {
+                      "name": "3. Nc3",
+                      "san": "Nc3",
+                      "ply": "w",
+                      "moveNumber": 3,
+                      "nags": [
+                        "$10"
+                      ],
+                      "comments": [
+                        "fork, development"
+                      ],
+                      "children": [
+                        {
+                          "name": "3. Bc4",
+                          "san": "Bc4",
+                          "ply": "w",
+                          "moveNumber": 3,
+                          "nags": [
+                            "$10"
+                          ],
+                          "comments": [
+                            "fork, development"
+                          ]
+                        },
+                        {
+                          "name": "3... Nf6",
+                          "san": "Nf6",
+                          "ply": "b",
+                          "moveNumber": 3,
+                          "children": [
+                            {
+                              "name": "3... e6",
+                              "san": "e6",
+                              "ply": "b",
+                              "moveNumber": 3,
+                              "nags": [
+                                "$10"
+                              ],
+                              "comments": [
+                                "fork"
+                              ],
+                              "children": [
+                                {
+                                  "name": "3... a6",
+                                  "san": "a6",
+                                  "ply": "b",
+                                  "moveNumber": 3,
+                                  "nags": [
+                                    "$10"
+                                  ],
+                                  "comments": [
+                                    "fork"
+                                  ]
+                                }
+                              ]
+                            }
+                          ],
+                          "nags": [
+                            "$10"
+                          ],
+                          "comments": [
+                            "fork, development"
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "name": "3... e5",
+                      "san": "e5",
+                      "ply": "b",
+                      "moveNumber": 3,
+                      "children": [
+                        {
+                          "name": "3... Nf6",
+                          "san": "Nf6",
+                          "ply": "b",
+                          "moveNumber": 3,
+                          "nags": [
+                            "$10"
+                          ],
+                          "comments": [
+                            "fork, development"
+                          ],
+                          "children": [
+                            {
+                              "name": "3... a6",
+                              "san": "a6",
+                              "ply": "b",
+                              "moveNumber": 3,
+                              "nags": [
+                                "$10"
+                              ],
+                              "comments": [
+                                "fork"
+                              ]
+                            }
+                          ]
+                        }
+                      ],
+                      "nags": [
+                        "$10"
+                      ],
+                      "comments": [
+                        "fork, center control"
                       ]
                     }
                   ],
@@ -197,18 +817,20 @@
                       ],
                       "comments": [
                         "fork, center control"
-                      ]
-                    },
-                    {
-                      "name": "3... Nd7",
-                      "san": "Nd7",
-                      "ply": "b",
-                      "moveNumber": 3,
-                      "nags": [
-                        "$1"
                       ],
-                      "comments": [
-                        "fork, development"
+                      "children": [
+                        {
+                          "name": "3... Nd7",
+                          "san": "Nd7",
+                          "ply": "b",
+                          "moveNumber": 3,
+                          "nags": [
+                            "$1"
+                          ],
+                          "comments": [
+                            "fork, development"
+                          ]
+                        }
                       ]
                     }
                   ],
@@ -217,170 +839,6 @@
                   ],
                   "comments": [
                     "fork, development"
-                  ]
-                },
-                {
-                  "name": "2... e6",
-                  "san": "e6",
-                  "ply": "b",
-                  "moveNumber": 2,
-                  "nags": [
-                    "$10"
-                  ],
-                  "comments": [
-                    "fork"
-                  ]
-                },
-                {
-                  "name": "3. d4",
-                  "san": "d4",
-                  "ply": "w",
-                  "moveNumber": 3,
-                  "children": [
-                    {
-                      "name": "3. Nc3",
-                      "san": "Nc3",
-                      "ply": "w",
-                      "moveNumber": 3,
-                      "nags": [
-                        "$10"
-                      ],
-                      "comments": [
-                        "fork, development"
-                      ]
-                    },
-                    {
-                      "name": "3... Nc6",
-                      "san": "Nc6",
-                      "ply": "b",
-                      "moveNumber": 3,
-                      "children": [
-                        {
-                          "name": "3... a6",
-                          "san": "a6",
-                          "ply": "b",
-                          "moveNumber": 3,
-                          "nags": [
-                            "$10"
-                          ],
-                          "comments": [
-                            "fork"
-                          ]
-                        },
-                        {
-                          "name": "3... d6",
-                          "san": "d6",
-                          "ply": "b",
-                          "moveNumber": 3,
-                          "nags": [
-                            "$1"
-                          ],
-                          "comments": [
-                            "fork"
-                          ]
-                        }
-                      ],
-                      "nags": [
-                        "$10"
-                      ],
-                      "comments": [
-                        "fork, development"
-                      ]
-                    },
-                    {
-                      "name": "3. Be2",
-                      "san": "Be2",
-                      "ply": "w",
-                      "moveNumber": 3,
-                      "nags": [
-                        "$10"
-                      ],
-                      "comments": [
-                        "fork, development"
-                      ]
-                    },
-                    {
-                      "name": "3... Nc6",
-                      "san": "Nc6",
-                      "ply": "b",
-                      "moveNumber": 3,
-                      "children": [
-                        {
-                          "name": "3... d5",
-                          "san": "d5",
-                          "ply": "b",
-                          "moveNumber": 3,
-                          "nags": [
-                            "$10"
-                          ],
-                          "comments": [
-                            "fork, center control"
-                          ]
-                        },
-                        {
-                          "name": "3... d6",
-                          "san": "d6",
-                          "ply": "b",
-                          "moveNumber": 3,
-                          "nags": [
-                            "$10"
-                          ],
-                          "comments": [
-                            "fork"
-                          ]
-                        }
-                      ],
-                      "nags": [
-                        "$10"
-                      ],
-                      "comments": [
-                        "fork, development"
-                      ]
-                    }
-                  ],
-                  "nags": [
-                    "$10"
-                  ],
-                  "comments": [
-                    "fork, center control"
-                  ]
-                },
-                {
-                  "name": "3... cxd4",
-                  "san": "cxd4",
-                  "ply": "b",
-                  "moveNumber": 3,
-                  "children": [
-                    {
-                      "name": "3... a6",
-                      "san": "a6",
-                      "ply": "b",
-                      "moveNumber": 3,
-                      "nags": [
-                        "$1"
-                      ],
-                      "comments": [
-                        "fork"
-                      ]
-                    },
-                    {
-                      "name": "3... d5",
-                      "san": "d5",
-                      "ply": "b",
-                      "moveNumber": 3,
-                      "nags": [
-                        "$1"
-                      ],
-                      "comments": [
-                        "fork, center control"
-                      ]
-                    }
-                  ],
-                  "nags": [
-                    "$10"
-                  ],
-                  "comments": [
-                    "fork, center control"
                   ]
                 }
               ],
@@ -407,6 +865,60 @@
                   ],
                   "comments": [
                     "fork, development"
+                  ],
+                  "children": [
+                    {
+                      "name": "3. Nc3",
+                      "san": "Nc3",
+                      "ply": "w",
+                      "moveNumber": 3,
+                      "nags": [
+                        "$10"
+                      ],
+                      "comments": [
+                        "fork, development"
+                      ]
+                    },
+                    {
+                      "name": "3... e5",
+                      "san": "e5",
+                      "ply": "b",
+                      "moveNumber": 3,
+                      "children": [
+                        {
+                          "name": "3... g6",
+                          "san": "g6",
+                          "ply": "b",
+                          "moveNumber": 3,
+                          "nags": [
+                            "$10"
+                          ],
+                          "comments": [
+                            "fork"
+                          ],
+                          "children": [
+                            {
+                              "name": "3... d6",
+                              "san": "d6",
+                              "ply": "b",
+                              "moveNumber": 3,
+                              "nags": [
+                                "$10"
+                              ],
+                              "comments": [
+                                "fork"
+                              ]
+                            }
+                          ]
+                        }
+                      ],
+                      "nags": [
+                        "$10"
+                      ],
+                      "comments": [
+                        "fork, center control"
+                      ]
+                    }
                   ]
                 },
                 {
@@ -425,18 +937,20 @@
                       ],
                       "comments": [
                         "fork"
-                      ]
-                    },
-                    {
-                      "name": "3... Nf6",
-                      "san": "Nf6",
-                      "ply": "b",
-                      "moveNumber": 3,
-                      "nags": [
-                        "$10"
                       ],
-                      "comments": [
-                        "fork, development"
+                      "children": [
+                        {
+                          "name": "3... Nf6",
+                          "san": "Nf6",
+                          "ply": "b",
+                          "moveNumber": 3,
+                          "nags": [
+                            "$10"
+                          ],
+                          "comments": [
+                            "fork, development"
+                          ]
+                        }
                       ]
                     }
                   ],
@@ -445,56 +959,6 @@
                   ],
                   "comments": [
                     "fork"
-                  ]
-                },
-                {
-                  "name": "3. Nc3",
-                  "san": "Nc3",
-                  "ply": "w",
-                  "moveNumber": 3,
-                  "nags": [
-                    "$10"
-                  ],
-                  "comments": [
-                    "fork, development"
-                  ]
-                },
-                {
-                  "name": "3... e5",
-                  "san": "e5",
-                  "ply": "b",
-                  "moveNumber": 3,
-                  "children": [
-                    {
-                      "name": "3... g6",
-                      "san": "g6",
-                      "ply": "b",
-                      "moveNumber": 3,
-                      "nags": [
-                        "$10"
-                      ],
-                      "comments": [
-                        "fork"
-                      ]
-                    },
-                    {
-                      "name": "3... d6",
-                      "san": "d6",
-                      "ply": "b",
-                      "moveNumber": 3,
-                      "nags": [
-                        "$10"
-                      ],
-                      "comments": [
-                        "fork"
-                      ]
-                    }
-                  ],
-                  "nags": [
-                    "$10"
-                  ],
-                  "comments": [
-                    "fork, center control"
                   ]
                 }
               ],
@@ -521,436 +985,20 @@
                   ],
                   "comments": [
                     "fork, center control"
-                  ]
-                },
-                {
-                  "name": "3... d6",
-                  "san": "d6",
-                  "ply": "b",
-                  "moveNumber": 3,
-                  "nags": [
-                    "$1"
                   ],
-                  "comments": [
-                    "fork"
-                  ]
-                }
-              ],
-              "nags": [
-                "$10"
-              ],
-              "comments": [
-                "fork, center control"
-              ]
-            },
-            {
-              "name": "2. Ne2",
-              "san": "Ne2",
-              "ply": "w",
-              "moveNumber": 2,
-              "nags": [
-                "$10"
-              ],
-              "comments": [
-                "fork, development"
-              ]
-            },
-            {
-              "name": "2... a6",
-              "san": "a6",
-              "ply": "b",
-              "moveNumber": 2,
-              "children": [
-                {
-                  "name": "2... Nf6",
-                  "san": "Nf6",
-                  "ply": "b",
-                  "moveNumber": 2,
-                  "nags": [
-                    "$10"
-                  ],
-                  "comments": [
-                    "fork, development"
-                  ]
-                },
-                {
-                  "name": "3. Nbc3",
-                  "san": "Nbc3",
-                  "ply": "w",
-                  "moveNumber": 3,
                   "children": [
-                    {
-                      "name": "3. e5",
-                      "san": "e5",
-                      "ply": "w",
-                      "moveNumber": 3,
-                      "nags": [
-                        "$10"
-                      ],
-                      "comments": [
-                        "fork, center control"
-                      ]
-                    },
-                    {
-                      "name": "3... Ng4",
-                      "san": "Ng4",
-                      "ply": "b",
-                      "moveNumber": 3,
-                      "children": [
-                        {
-                          "name": "3... Nd5",
-                          "san": "Nd5",
-                          "ply": "b",
-                          "moveNumber": 3,
-                          "nags": [
-                            "$10"
-                          ],
-                          "comments": [
-                            "fork, center control"
-                          ]
-                        },
-                        {
-                          "name": "3... Ng8",
-                          "san": "Ng8",
-                          "ply": "b",
-                          "moveNumber": 3,
-                          "nags": [
-                            "$10"
-                          ],
-                          "comments": [
-                            "fork"
-                          ]
-                        }
-                      ],
-                      "nags": [
-                        "$10"
-                      ],
-                      "comments": [
-                        "fork"
-                      ]
-                    },
-                    {
-                      "name": "3. d3",
-                      "san": "d3",
-                      "ply": "w",
-                      "moveNumber": 3,
-                      "nags": [
-                        "$10"
-                      ],
-                      "comments": [
-                        "fork"
-                      ]
-                    },
-                    {
-                      "name": "3... Nc6",
-                      "san": "Nc6",
-                      "ply": "b",
-                      "moveNumber": 3,
-                      "children": [
-                        {
-                          "name": "3... g6",
-                          "san": "g6",
-                          "ply": "b",
-                          "moveNumber": 3,
-                          "nags": [
-                            "$10"
-                          ],
-                          "comments": [
-                            "fork"
-                          ]
-                        },
-                        {
-                          "name": "3... d5",
-                          "san": "d5",
-                          "ply": "b",
-                          "moveNumber": 3,
-                          "nags": [
-                            "$10"
-                          ],
-                          "comments": [
-                            "fork, center control"
-                          ]
-                        }
-                      ],
-                      "nags": [
-                        "$10"
-                      ],
-                      "comments": [
-                        "fork, development"
-                      ]
-                    }
-                  ],
-                  "nags": [
-                    "$10"
-                  ],
-                  "comments": [
-                    "fork, development"
-                  ]
-                },
-                {
-                  "name": "3... a6",
-                  "san": "a6",
-                  "ply": "b",
-                  "moveNumber": 3,
-                  "children": [
-                    {
-                      "name": "3... d5",
-                      "san": "d5",
-                      "ply": "b",
-                      "moveNumber": 3,
-                      "nags": [
-                        "$10"
-                      ],
-                      "comments": [
-                        "fork, center control"
-                      ]
-                    },
-                    {
-                      "name": "3... e5",
-                      "san": "e5",
-                      "ply": "b",
-                      "moveNumber": 3,
-                      "nags": [
-                        "$10"
-                      ],
-                      "comments": [
-                        "fork, center control"
-                      ]
-                    }
-                  ],
-                  "nags": [
-                    "$10"
-                  ],
-                  "comments": [
-                    "fork"
-                  ]
-                },
-                {
-                  "name": "2... d5",
-                  "san": "d5",
-                  "ply": "b",
-                  "moveNumber": 2,
-                  "nags": [
-                    "$10"
-                  ],
-                  "comments": [
-                    "fork, center control"
-                  ]
-                },
-                {
-                  "name": "3. exd5",
-                  "san": "exd5",
-                  "ply": "w",
-                  "moveNumber": 3,
-                  "children": [
-                    {
-                      "name": "3. d4",
-                      "san": "d4",
-                      "ply": "w",
-                      "moveNumber": 3,
-                      "nags": [
-                        "$10"
-                      ],
-                      "comments": [
-                        "fork, center control"
-                      ]
-                    }
-                  ],
-                  "nags": [
-                    "$10"
-                  ],
-                  "comments": [
-                    "fork, center control"
-                  ]
-                },
-                {
-                  "name": "3... Nf6",
-                  "san": "Nf6",
-                  "ply": "b",
-                  "moveNumber": 3,
-                  "children": [
-                    {
-                      "name": "3... Qxd5",
-                      "san": "Qxd5",
-                      "ply": "b",
-                      "moveNumber": 3,
-                      "nags": [
-                        "$1"
-                      ],
-                      "comments": [
-                        "fork, center control"
-                      ]
-                    },
-                    {
-                      "name": "3... e6",
-                      "san": "e6",
-                      "ply": "b",
-                      "moveNumber": 3,
-                      "nags": [
-                        "$1"
-                      ],
-                      "comments": [
-                        "fork"
-                      ]
-                    }
-                  ],
-                  "nags": [
-                    "$10"
-                  ],
-                  "comments": [
-                    "fork, development"
-                  ]
-                }
-              ],
-              "nags": [
-                "$10"
-              ],
-              "comments": [
-                "fork"
-              ]
-            },
-            {
-              "name": "3. d4",
-              "san": "d4",
-              "ply": "w",
-              "moveNumber": 3,
-              "children": [
-                {
-                  "name": "3. Nbc3",
-                  "san": "Nbc3",
-                  "ply": "w",
-                  "moveNumber": 3,
-                  "nags": [
-                    "$10"
-                  ],
-                  "comments": [
-                    "fork, development"
-                  ]
-                },
-                {
-                  "name": "3... Nf6",
-                  "san": "Nf6",
-                  "ply": "b",
-                  "moveNumber": 3,
-                  "children": [
-                    {
-                      "name": "3... e6",
-                      "san": "e6",
-                      "ply": "b",
-                      "moveNumber": 3,
-                      "nags": [
-                        "$10"
-                      ],
-                      "comments": [
-                        "fork"
-                      ]
-                    },
                     {
                       "name": "3... d6",
                       "san": "d6",
                       "ply": "b",
                       "moveNumber": 3,
                       "nags": [
-                        "$10"
+                        "$1"
                       ],
                       "comments": [
                         "fork"
                       ]
                     }
-                  ],
-                  "nags": [
-                    "$10"
-                  ],
-                  "comments": [
-                    "fork, development"
-                  ]
-                },
-                {
-                  "name": "3. c4",
-                  "san": "c4",
-                  "ply": "w",
-                  "moveNumber": 3,
-                  "nags": [
-                    "$10"
-                  ],
-                  "comments": [
-                    "fork"
-                  ]
-                },
-                {
-                  "name": "3... e5",
-                  "san": "e5",
-                  "ply": "b",
-                  "moveNumber": 3,
-                  "children": [
-                    {
-                      "name": "3... Nf6",
-                      "san": "Nf6",
-                      "ply": "b",
-                      "moveNumber": 3,
-                      "nags": [
-                        "$10"
-                      ],
-                      "comments": [
-                        "fork, development"
-                      ]
-                    },
-                    {
-                      "name": "3... e6",
-                      "san": "e6",
-                      "ply": "b",
-                      "moveNumber": 3,
-                      "nags": [
-                        "$10"
-                      ],
-                      "comments": [
-                        "fork"
-                      ]
-                    }
-                  ],
-                  "nags": [
-                    "$10"
-                  ],
-                  "comments": [
-                    "fork, center control"
-                  ]
-                }
-              ],
-              "nags": [
-                "$10"
-              ],
-              "comments": [
-                "fork, center control"
-              ]
-            },
-            {
-              "name": "3... cxd4",
-              "san": "cxd4",
-              "ply": "b",
-              "moveNumber": 3,
-              "children": [
-                {
-                  "name": "3... e6",
-                  "san": "e6",
-                  "ply": "b",
-                  "moveNumber": 3,
-                  "nags": [
-                    "$1"
-                  ],
-                  "comments": [
-                    "fork"
-                  ]
-                },
-                {
-                  "name": "3... Qc7",
-                  "san": "Qc7",
-                  "ply": "b",
-                  "moveNumber": 3,
-                  "nags": [
-                    "$1"
-                  ],
-                  "comments": [
-                    "fork"
                   ]
                 }
               ],
@@ -985,6 +1033,180 @@
               ],
               "comments": [
                 "fork"
+              ],
+              "children": [
+                {
+                  "name": "2... a6",
+                  "san": "a6",
+                  "ply": "b",
+                  "moveNumber": 2,
+                  "nags": [
+                    "$10"
+                  ],
+                  "comments": [
+                    "fork"
+                  ]
+                },
+                {
+                  "name": "3. Nf3",
+                  "san": "Nf3",
+                  "ply": "w",
+                  "moveNumber": 3,
+                  "children": [
+                    {
+                      "name": "3. g3",
+                      "san": "g3",
+                      "ply": "w",
+                      "moveNumber": 3,
+                      "nags": [
+                        "$10"
+                      ],
+                      "comments": [
+                        "fork"
+                      ],
+                      "children": [
+                        {
+                          "name": "3. Nge2",
+                          "san": "Nge2",
+                          "ply": "w",
+                          "moveNumber": 3,
+                          "nags": [
+                            "$10"
+                          ],
+                          "comments": [
+                            "fork, development"
+                          ]
+                        },
+                        {
+                          "name": "3... Nf6",
+                          "san": "Nf6",
+                          "ply": "b",
+                          "moveNumber": 3,
+                          "children": [
+                            {
+                              "name": "3... d6",
+                              "san": "d6",
+                              "ply": "b",
+                              "moveNumber": 3,
+                              "nags": [
+                                "$10"
+                              ],
+                              "comments": [
+                                "fork"
+                              ],
+                              "children": [
+                                {
+                                  "name": "3... e6",
+                                  "san": "e6",
+                                  "ply": "b",
+                                  "moveNumber": 3,
+                                  "nags": [
+                                    "$10"
+                                  ],
+                                  "comments": [
+                                    "fork"
+                                  ]
+                                }
+                              ]
+                            }
+                          ],
+                          "nags": [
+                            "$10"
+                          ],
+                          "comments": [
+                            "fork, development"
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "name": "3... Nc6",
+                      "san": "Nc6",
+                      "ply": "b",
+                      "moveNumber": 3,
+                      "children": [
+                        {
+                          "name": "3... e6",
+                          "san": "e6",
+                          "ply": "b",
+                          "moveNumber": 3,
+                          "nags": [
+                            "$10"
+                          ],
+                          "comments": [
+                            "fork"
+                          ],
+                          "children": [
+                            {
+                              "name": "3... b5",
+                              "san": "b5",
+                              "ply": "b",
+                              "moveNumber": 3,
+                              "nags": [
+                                "$10"
+                              ],
+                              "comments": [
+                                "fork"
+                              ]
+                            }
+                          ]
+                        }
+                      ],
+                      "nags": [
+                        "$10"
+                      ],
+                      "comments": [
+                        "fork, development"
+                      ]
+                    }
+                  ],
+                  "nags": [
+                    "$10"
+                  ],
+                  "comments": [
+                    "fork, development"
+                  ]
+                },
+                {
+                  "name": "3... e6",
+                  "san": "e6",
+                  "ply": "b",
+                  "moveNumber": 3,
+                  "children": [
+                    {
+                      "name": "3... b5",
+                      "san": "b5",
+                      "ply": "b",
+                      "moveNumber": 3,
+                      "nags": [
+                        "$10"
+                      ],
+                      "comments": [
+                        "fork"
+                      ],
+                      "children": [
+                        {
+                          "name": "3... d6",
+                          "san": "d6",
+                          "ply": "b",
+                          "moveNumber": 3,
+                          "nags": [
+                            "$10"
+                          ],
+                          "comments": [
+                            "fork"
+                          ]
+                        }
+                      ]
+                    }
+                  ],
+                  "nags": [
+                    "$10"
+                  ],
+                  "comments": [
+                    "fork"
+                  ]
+                }
               ]
             },
             {
@@ -1003,6 +1225,60 @@
                   ],
                   "comments": [
                     "fork, development"
+                  ],
+                  "children": [
+                    {
+                      "name": "3. f4",
+                      "san": "f4",
+                      "ply": "w",
+                      "moveNumber": 3,
+                      "nags": [
+                        "$10"
+                      ],
+                      "comments": [
+                        "fork"
+                      ]
+                    },
+                    {
+                      "name": "3... g6",
+                      "san": "g6",
+                      "ply": "b",
+                      "moveNumber": 3,
+                      "children": [
+                        {
+                          "name": "3... Nf6",
+                          "san": "Nf6",
+                          "ply": "b",
+                          "moveNumber": 3,
+                          "nags": [
+                            "$10"
+                          ],
+                          "comments": [
+                            "fork, development"
+                          ],
+                          "children": [
+                            {
+                              "name": "3... Nc6",
+                              "san": "Nc6",
+                              "ply": "b",
+                              "moveNumber": 3,
+                              "nags": [
+                                "$10"
+                              ],
+                              "comments": [
+                                "fork, development"
+                              ]
+                            }
+                          ]
+                        }
+                      ],
+                      "nags": [
+                        "$10"
+                      ],
+                      "comments": [
+                        "fork"
+                      ]
+                    }
                   ]
                 },
                 {
@@ -1021,18 +1297,20 @@
                       ],
                       "comments": [
                         "fork"
-                      ]
-                    },
-                    {
-                      "name": "3... Nf6",
-                      "san": "Nf6",
-                      "ply": "b",
-                      "moveNumber": 3,
-                      "nags": [
-                        "$10"
                       ],
-                      "comments": [
-                        "fork, development"
+                      "children": [
+                        {
+                          "name": "3... Nf6",
+                          "san": "Nf6",
+                          "ply": "b",
+                          "moveNumber": 3,
+                          "nags": [
+                            "$10"
+                          ],
+                          "comments": [
+                            "fork, development"
+                          ]
+                        }
                       ]
                     }
                   ],
@@ -1041,56 +1319,6 @@
                   ],
                   "comments": [
                     "fork, center control"
-                  ]
-                },
-                {
-                  "name": "3. f4",
-                  "san": "f4",
-                  "ply": "w",
-                  "moveNumber": 3,
-                  "nags": [
-                    "$10"
-                  ],
-                  "comments": [
-                    "fork"
-                  ]
-                },
-                {
-                  "name": "3... g6",
-                  "san": "g6",
-                  "ply": "b",
-                  "moveNumber": 3,
-                  "children": [
-                    {
-                      "name": "3... Nf6",
-                      "san": "Nf6",
-                      "ply": "b",
-                      "moveNumber": 3,
-                      "nags": [
-                        "$10"
-                      ],
-                      "comments": [
-                        "fork, development"
-                      ]
-                    },
-                    {
-                      "name": "3... Nc6",
-                      "san": "Nc6",
-                      "ply": "b",
-                      "moveNumber": 3,
-                      "nags": [
-                        "$10"
-                      ],
-                      "comments": [
-                        "fork, development"
-                      ]
-                    }
-                  ],
-                  "nags": [
-                    "$10"
-                  ],
-                  "comments": [
-                    "fork"
                   ]
                 }
               ],
@@ -1117,182 +1345,20 @@
                   ],
                   "comments": [
                     "fork, center control"
-                  ]
-                },
-                {
-                  "name": "3... Nf6",
-                  "san": "Nf6",
-                  "ply": "b",
-                  "moveNumber": 3,
-                  "nags": [
-                    "$10"
                   ],
-                  "comments": [
-                    "fork, development"
-                  ]
-                }
-              ],
-              "nags": [
-                "$10"
-              ],
-              "comments": [
-                "fork"
-              ]
-            },
-            {
-              "name": "2... a6",
-              "san": "a6",
-              "ply": "b",
-              "moveNumber": 2,
-              "nags": [
-                "$10"
-              ],
-              "comments": [
-                "fork"
-              ]
-            },
-            {
-              "name": "3. Nf3",
-              "san": "Nf3",
-              "ply": "w",
-              "moveNumber": 3,
-              "children": [
-                {
-                  "name": "3. g3",
-                  "san": "g3",
-                  "ply": "w",
-                  "moveNumber": 3,
-                  "nags": [
-                    "$10"
-                  ],
-                  "comments": [
-                    "fork"
-                  ]
-                },
-                {
-                  "name": "3... Nc6",
-                  "san": "Nc6",
-                  "ply": "b",
-                  "moveNumber": 3,
                   "children": [
                     {
-                      "name": "3... e6",
-                      "san": "e6",
+                      "name": "3... Nf6",
+                      "san": "Nf6",
                       "ply": "b",
                       "moveNumber": 3,
                       "nags": [
                         "$10"
                       ],
                       "comments": [
-                        "fork"
-                      ]
-                    },
-                    {
-                      "name": "3... b5",
-                      "san": "b5",
-                      "ply": "b",
-                      "moveNumber": 3,
-                      "nags": [
-                        "$10"
-                      ],
-                      "comments": [
-                        "fork"
+                        "fork, development"
                       ]
                     }
-                  ],
-                  "nags": [
-                    "$10"
-                  ],
-                  "comments": [
-                    "fork, development"
-                  ]
-                },
-                {
-                  "name": "3. Nge2",
-                  "san": "Nge2",
-                  "ply": "w",
-                  "moveNumber": 3,
-                  "nags": [
-                    "$10"
-                  ],
-                  "comments": [
-                    "fork, development"
-                  ]
-                },
-                {
-                  "name": "3... Nf6",
-                  "san": "Nf6",
-                  "ply": "b",
-                  "moveNumber": 3,
-                  "children": [
-                    {
-                      "name": "3... d6",
-                      "san": "d6",
-                      "ply": "b",
-                      "moveNumber": 3,
-                      "nags": [
-                        "$10"
-                      ],
-                      "comments": [
-                        "fork"
-                      ]
-                    },
-                    {
-                      "name": "3... e6",
-                      "san": "e6",
-                      "ply": "b",
-                      "moveNumber": 3,
-                      "nags": [
-                        "$10"
-                      ],
-                      "comments": [
-                        "fork"
-                      ]
-                    }
-                  ],
-                  "nags": [
-                    "$10"
-                  ],
-                  "comments": [
-                    "fork, development"
-                  ]
-                }
-              ],
-              "nags": [
-                "$10"
-              ],
-              "comments": [
-                "fork, development"
-              ]
-            },
-            {
-              "name": "3... e6",
-              "san": "e6",
-              "ply": "b",
-              "moveNumber": 3,
-              "children": [
-                {
-                  "name": "3... b5",
-                  "san": "b5",
-                  "ply": "b",
-                  "moveNumber": 3,
-                  "nags": [
-                    "$10"
-                  ],
-                  "comments": [
-                    "fork"
-                  ]
-                },
-                {
-                  "name": "3... d6",
-                  "san": "d6",
-                  "ply": "b",
-                  "moveNumber": 3,
-                  "nags": [
-                    "$10"
-                  ],
-                  "comments": [
-                    "fork"
                   ]
                 }
               ],
@@ -1327,6 +1393,60 @@
               ],
               "comments": [
                 "fork, development"
+              ],
+              "children": [
+                {
+                  "name": "3. Bb5",
+                  "san": "Bb5",
+                  "ply": "w",
+                  "moveNumber": 3,
+                  "nags": [
+                    "$10"
+                  ],
+                  "comments": [
+                    "fork, development"
+                  ]
+                },
+                {
+                  "name": "3... Nd4",
+                  "san": "Nd4",
+                  "ply": "b",
+                  "moveNumber": 3,
+                  "children": [
+                    {
+                      "name": "3... e6",
+                      "san": "e6",
+                      "ply": "b",
+                      "moveNumber": 3,
+                      "nags": [
+                        "$10"
+                      ],
+                      "comments": [
+                        "fork"
+                      ],
+                      "children": [
+                        {
+                          "name": "3... g6",
+                          "san": "g6",
+                          "ply": "b",
+                          "moveNumber": 3,
+                          "nags": [
+                            "$10"
+                          ],
+                          "comments": [
+                            "fork"
+                          ]
+                        }
+                      ]
+                    }
+                  ],
+                  "nags": [
+                    "$10"
+                  ],
+                  "comments": [
+                    "fork, center control"
+                  ]
+                }
               ]
             },
             {
@@ -1345,68 +1465,20 @@
                   ],
                   "comments": [
                     "fork, development"
-                  ]
-                },
-                {
-                  "name": "3... g6",
-                  "san": "g6",
-                  "ply": "b",
-                  "moveNumber": 3,
-                  "nags": [
-                    "$10"
                   ],
-                  "comments": [
-                    "fork"
-                  ]
-                }
-              ],
-              "nags": [
-                "$10"
-              ],
-              "comments": [
-                "fork, center control"
-              ]
-            },
-            {
-              "name": "3. Bb5",
-              "san": "Bb5",
-              "ply": "w",
-              "moveNumber": 3,
-              "nags": [
-                "$10"
-              ],
-              "comments": [
-                "fork, development"
-              ]
-            },
-            {
-              "name": "3... Nd4",
-              "san": "Nd4",
-              "ply": "b",
-              "moveNumber": 3,
-              "children": [
-                {
-                  "name": "3... e6",
-                  "san": "e6",
-                  "ply": "b",
-                  "moveNumber": 3,
-                  "nags": [
-                    "$10"
-                  ],
-                  "comments": [
-                    "fork"
-                  ]
-                },
-                {
-                  "name": "3... g6",
-                  "san": "g6",
-                  "ply": "b",
-                  "moveNumber": 3,
-                  "nags": [
-                    "$10"
-                  ],
-                  "comments": [
-                    "fork"
+                  "children": [
+                    {
+                      "name": "3... g6",
+                      "san": "g6",
+                      "ply": "b",
+                      "moveNumber": 3,
+                      "nags": [
+                        "$10"
+                      ],
+                      "comments": [
+                        "fork"
+                      ]
+                    }
                   ]
                 }
               ],
@@ -1441,18 +1513,20 @@
               ],
               "comments": [
                 "fork"
-              ]
-            },
-            {
-              "name": "3... g6",
-              "san": "g6",
-              "ply": "b",
-              "moveNumber": 3,
-              "nags": [
-                "$10"
               ],
-              "comments": [
-                "fork"
+              "children": [
+                {
+                  "name": "3... g6",
+                  "san": "g6",
+                  "ply": "b",
+                  "moveNumber": 3,
+                  "nags": [
+                    "$10"
+                  ],
+                  "comments": [
+                    "fork"
+                  ]
+                }
               ]
             }
           ],
@@ -1487,6 +1561,540 @@
           ],
           "comments": [
             "fork, development"
+          ],
+          "children": [
+            {
+              "name": "2. Nc3",
+              "san": "Nc3",
+              "ply": "w",
+              "moveNumber": 2,
+              "nags": [
+                "$10"
+              ],
+              "comments": [
+                "fork, development"
+              ]
+            },
+            {
+              "name": "2... Nc6",
+              "san": "Nc6",
+              "ply": "b",
+              "moveNumber": 2,
+              "children": [
+                {
+                  "name": "2... Nf6",
+                  "san": "Nf6",
+                  "ply": "b",
+                  "moveNumber": 2,
+                  "nags": [
+                    "$10"
+                  ],
+                  "comments": [
+                    "fork, development"
+                  ],
+                  "children": [
+                    {
+                      "name": "2... Bc5",
+                      "san": "Bc5",
+                      "ply": "b",
+                      "moveNumber": 2,
+                      "nags": [
+                        "$10"
+                      ],
+                      "comments": [
+                        "fork, development"
+                      ]
+                    },
+                    {
+                      "name": "3. Nf3",
+                      "san": "Nf3",
+                      "ply": "w",
+                      "moveNumber": 3,
+                      "children": [
+                        {
+                          "name": "3. Qh5",
+                          "san": "Qh5",
+                          "ply": "w",
+                          "moveNumber": 3,
+                          "nags": [
+                            "$10"
+                          ],
+                          "comments": [
+                            "fork"
+                          ],
+                          "children": [
+                            {
+                              "name": "3. Be2",
+                              "san": "Be2",
+                              "ply": "w",
+                              "moveNumber": 3,
+                              "nags": [
+                                "$10"
+                              ],
+                              "comments": [
+                                "fork, development"
+                              ]
+                            },
+                            {
+                              "name": "3... Nc6",
+                              "san": "Nc6",
+                              "ply": "b",
+                              "moveNumber": 3,
+                              "children": [
+                                {
+                                  "name": "3... d6",
+                                  "san": "d6",
+                                  "ply": "b",
+                                  "moveNumber": 3,
+                                  "nags": [
+                                    "$10"
+                                  ],
+                                  "comments": [
+                                    "fork"
+                                  ],
+                                  "children": [
+                                    {
+                                      "name": "3... Nf6",
+                                      "san": "Nf6",
+                                      "ply": "b",
+                                      "moveNumber": 3,
+                                      "nags": [
+                                        "$10"
+                                      ],
+                                      "comments": [
+                                        "fork, development"
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ],
+                              "nags": [
+                                "$10"
+                              ],
+                              "comments": [
+                                "fork, development"
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "name": "3... d6",
+                          "san": "d6",
+                          "ply": "b",
+                          "moveNumber": 3,
+                          "children": [
+                            {
+                              "name": "3... Nc6",
+                              "san": "Nc6",
+                              "ply": "b",
+                              "moveNumber": 3,
+                              "nags": [
+                                "$10"
+                              ],
+                              "comments": [
+                                "fork, development"
+                              ],
+                              "children": [
+                                {
+                                  "name": "3... Qe7",
+                                  "san": "Qe7",
+                                  "ply": "b",
+                                  "moveNumber": 3,
+                                  "nags": [
+                                    "$1"
+                                  ],
+                                  "comments": [
+                                    "fork"
+                                  ]
+                                }
+                              ]
+                            }
+                          ],
+                          "nags": [
+                            "$10"
+                          ],
+                          "comments": [
+                            "fork"
+                          ]
+                        }
+                      ],
+                      "nags": [
+                        "$10"
+                      ],
+                      "comments": [
+                        "fork, development"
+                      ]
+                    },
+                    {
+                      "name": "3... d6",
+                      "san": "d6",
+                      "ply": "b",
+                      "moveNumber": 3,
+                      "children": [
+                        {
+                          "name": "3... Nc6",
+                          "san": "Nc6",
+                          "ply": "b",
+                          "moveNumber": 3,
+                          "nags": [
+                            "$1"
+                          ],
+                          "comments": [
+                            "fork, development"
+                          ],
+                          "children": [
+                            {
+                              "name": "3... Bd4",
+                              "san": "Bd4",
+                              "ply": "b",
+                              "moveNumber": 3,
+                              "nags": [
+                                "$1"
+                              ],
+                              "comments": [
+                                "fork, center control"
+                              ]
+                            }
+                          ]
+                        }
+                      ],
+                      "nags": [
+                        "$10"
+                      ],
+                      "comments": [
+                        "fork"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "name": "3. Nf3",
+                  "san": "Nf3",
+                  "ply": "w",
+                  "moveNumber": 3,
+                  "children": [
+                    {
+                      "name": "3. Bc4",
+                      "san": "Bc4",
+                      "ply": "w",
+                      "moveNumber": 3,
+                      "nags": [
+                        "$10"
+                      ],
+                      "comments": [
+                        "fork, development"
+                      ],
+                      "children": [
+                        {
+                          "name": "3. d4",
+                          "san": "d4",
+                          "ply": "w",
+                          "moveNumber": 3,
+                          "nags": [
+                            "$10"
+                          ],
+                          "comments": [
+                            "fork, center control"
+                          ]
+                        },
+                        {
+                          "name": "3... exd4",
+                          "san": "exd4",
+                          "ply": "b",
+                          "moveNumber": 3,
+                          "children": [
+                            {
+                              "name": "3... d6",
+                              "san": "d6",
+                              "ply": "b",
+                              "moveNumber": 3,
+                              "nags": [
+                                "$1"
+                              ],
+                              "comments": [
+                                "fork"
+                              ],
+                              "children": [
+                                {
+                                  "name": "3... Bd6",
+                                  "san": "Bd6",
+                                  "ply": "b",
+                                  "moveNumber": 3,
+                                  "nags": [
+                                    "$1"
+                                  ],
+                                  "comments": [
+                                    "fork, development"
+                                  ]
+                                }
+                              ]
+                            }
+                          ],
+                          "nags": [
+                            "$10"
+                          ],
+                          "comments": [
+                            "fork, center control"
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "name": "3... Bc5",
+                      "san": "Bc5",
+                      "ply": "b",
+                      "moveNumber": 3,
+                      "children": [
+                        {
+                          "name": "3... Nc6",
+                          "san": "Nc6",
+                          "ply": "b",
+                          "moveNumber": 3,
+                          "nags": [
+                            "$10"
+                          ],
+                          "comments": [
+                            "fork, development"
+                          ],
+                          "children": [
+                            {
+                              "name": "3... Bb4",
+                              "san": "Bb4",
+                              "ply": "b",
+                              "moveNumber": 3,
+                              "nags": [
+                                "$10"
+                              ],
+                              "comments": [
+                                "fork, development"
+                              ]
+                            }
+                          ]
+                        }
+                      ],
+                      "nags": [
+                        "$10"
+                      ],
+                      "comments": [
+                        "fork, development"
+                      ]
+                    }
+                  ],
+                  "nags": [
+                    "$10"
+                  ],
+                  "comments": [
+                    "fork, development"
+                  ]
+                },
+                {
+                  "name": "3... Nc6",
+                  "san": "Nc6",
+                  "ply": "b",
+                  "moveNumber": 3,
+                  "children": [
+                    {
+                      "name": "3... Bb4",
+                      "san": "Bb4",
+                      "ply": "b",
+                      "moveNumber": 3,
+                      "nags": [
+                        "$10"
+                      ],
+                      "comments": [
+                        "fork, development"
+                      ],
+                      "children": [
+                        {
+                          "name": "3... d6",
+                          "san": "d6",
+                          "ply": "b",
+                          "moveNumber": 3,
+                          "nags": [
+                            "$1"
+                          ],
+                          "comments": [
+                            "fork"
+                          ]
+                        }
+                      ]
+                    }
+                  ],
+                  "nags": [
+                    "$10"
+                  ],
+                  "comments": [
+                    "fork, development"
+                  ]
+                }
+              ],
+              "nags": [
+                "$10"
+              ],
+              "comments": [
+                "fork, development"
+              ]
+            },
+            {
+              "name": "3. Nf3",
+              "san": "Nf3",
+              "ply": "w",
+              "moveNumber": 3,
+              "children": [
+                {
+                  "name": "3. Nge2",
+                  "san": "Nge2",
+                  "ply": "w",
+                  "moveNumber": 3,
+                  "nags": [
+                    "$10"
+                  ],
+                  "comments": [
+                    "fork, development"
+                  ],
+                  "children": [
+                    {
+                      "name": "3. Bc4",
+                      "san": "Bc4",
+                      "ply": "w",
+                      "moveNumber": 3,
+                      "nags": [
+                        "$10"
+                      ],
+                      "comments": [
+                        "fork, development"
+                      ]
+                    },
+                    {
+                      "name": "3... Nf6",
+                      "san": "Nf6",
+                      "ply": "b",
+                      "moveNumber": 3,
+                      "children": [
+                        {
+                          "name": "3... Bc5",
+                          "san": "Bc5",
+                          "ply": "b",
+                          "moveNumber": 3,
+                          "nags": [
+                            "$10"
+                          ],
+                          "comments": [
+                            "fork, development"
+                          ],
+                          "children": [
+                            {
+                              "name": "3... Be7",
+                              "san": "Be7",
+                              "ply": "b",
+                              "moveNumber": 3,
+                              "nags": [
+                                "$10"
+                              ],
+                              "comments": [
+                                "fork, development"
+                              ]
+                            }
+                          ]
+                        }
+                      ],
+                      "nags": [
+                        "$10"
+                      ],
+                      "comments": [
+                        "fork, development"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "name": "3... Nf6",
+                  "san": "Nf6",
+                  "ply": "b",
+                  "moveNumber": 3,
+                  "children": [
+                    {
+                      "name": "3... Bc5",
+                      "san": "Bc5",
+                      "ply": "b",
+                      "moveNumber": 3,
+                      "nags": [
+                        "$10"
+                      ],
+                      "comments": [
+                        "fork, development"
+                      ],
+                      "children": [
+                        {
+                          "name": "3... Nd4",
+                          "san": "Nd4",
+                          "ply": "b",
+                          "moveNumber": 3,
+                          "nags": [
+                            "$10"
+                          ],
+                          "comments": [
+                            "fork, center control"
+                          ]
+                        }
+                      ]
+                    }
+                  ],
+                  "nags": [
+                    "$10"
+                  ],
+                  "comments": [
+                    "fork, development"
+                  ]
+                }
+              ],
+              "nags": [
+                "$10"
+              ],
+              "comments": [
+                "fork, development"
+              ]
+            },
+            {
+              "name": "3... Nf6",
+              "san": "Nf6",
+              "ply": "b",
+              "moveNumber": 3,
+              "children": [
+                {
+                  "name": "3... Bb4",
+                  "san": "Bb4",
+                  "ply": "b",
+                  "moveNumber": 3,
+                  "nags": [
+                    "$10"
+                  ],
+                  "comments": [
+                    "fork, development"
+                  ],
+                  "children": [
+                    {
+                      "name": "3... Bc5",
+                      "san": "Bc5",
+                      "ply": "b",
+                      "moveNumber": 3,
+                      "nags": [
+                        "$1"
+                      ],
+                      "comments": [
+                        "fork, development"
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "nags": [
+                "$10"
+              ],
+              "comments": [
+                "fork, development"
+              ]
+            }
           ]
         },
         {
@@ -1505,6 +2113,180 @@
               ],
               "comments": [
                 "fork, development"
+              ],
+              "children": [
+                {
+                  "name": "2... Nc6",
+                  "san": "Nc6",
+                  "ply": "b",
+                  "moveNumber": 2,
+                  "nags": [
+                    "$10"
+                  ],
+                  "comments": [
+                    "fork, development"
+                  ]
+                },
+                {
+                  "name": "3. d3",
+                  "san": "d3",
+                  "ply": "w",
+                  "moveNumber": 3,
+                  "children": [
+                    {
+                      "name": "3. Nf3",
+                      "san": "Nf3",
+                      "ply": "w",
+                      "moveNumber": 3,
+                      "nags": [
+                        "$10"
+                      ],
+                      "comments": [
+                        "fork, development"
+                      ],
+                      "children": [
+                        {
+                          "name": "3. a4",
+                          "san": "a4",
+                          "ply": "w",
+                          "moveNumber": 3,
+                          "nags": [
+                            "$10"
+                          ],
+                          "comments": [
+                            "fork"
+                          ]
+                        },
+                        {
+                          "name": "3... Nf6",
+                          "san": "Nf6",
+                          "ply": "b",
+                          "moveNumber": 3,
+                          "children": [
+                            {
+                              "name": "3... Bc5",
+                              "san": "Bc5",
+                              "ply": "b",
+                              "moveNumber": 3,
+                              "nags": [
+                                "$10"
+                              ],
+                              "comments": [
+                                "fork, development"
+                              ],
+                              "children": [
+                                {
+                                  "name": "3... a5",
+                                  "san": "a5",
+                                  "ply": "b",
+                                  "moveNumber": 3,
+                                  "nags": [
+                                    "$10"
+                                  ],
+                                  "comments": [
+                                    "fork"
+                                  ]
+                                }
+                              ]
+                            }
+                          ],
+                          "nags": [
+                            "$10"
+                          ],
+                          "comments": [
+                            "fork, development"
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "name": "3... Bc5",
+                      "san": "Bc5",
+                      "ply": "b",
+                      "moveNumber": 3,
+                      "children": [
+                        {
+                          "name": "3... Nf6",
+                          "san": "Nf6",
+                          "ply": "b",
+                          "moveNumber": 3,
+                          "nags": [
+                            "$10"
+                          ],
+                          "comments": [
+                            "fork, development"
+                          ],
+                          "children": [
+                            {
+                              "name": "3... Be7",
+                              "san": "Be7",
+                              "ply": "b",
+                              "moveNumber": 3,
+                              "nags": [
+                                "$10"
+                              ],
+                              "comments": [
+                                "fork, development"
+                              ]
+                            }
+                          ]
+                        }
+                      ],
+                      "nags": [
+                        "$10"
+                      ],
+                      "comments": [
+                        "fork, development"
+                      ]
+                    }
+                  ],
+                  "nags": [
+                    "$10"
+                  ],
+                  "comments": [
+                    "fork"
+                  ]
+                },
+                {
+                  "name": "3... Nf6",
+                  "san": "Nf6",
+                  "ply": "b",
+                  "moveNumber": 3,
+                  "children": [
+                    {
+                      "name": "3... Bc5",
+                      "san": "Bc5",
+                      "ply": "b",
+                      "moveNumber": 3,
+                      "nags": [
+                        "$10"
+                      ],
+                      "comments": [
+                        "fork, development"
+                      ],
+                      "children": [
+                        {
+                          "name": "3... Be7",
+                          "san": "Be7",
+                          "ply": "b",
+                          "moveNumber": 3,
+                          "nags": [
+                            "$10"
+                          ],
+                          "comments": [
+                            "fork, development"
+                          ]
+                        }
+                      ]
+                    }
+                  ],
+                  "nags": [
+                    "$10"
+                  ],
+                  "comments": [
+                    "fork, development"
+                  ]
+                }
               ]
             },
             {
@@ -1523,6 +2305,60 @@
                   ],
                   "comments": [
                     "fork"
+                  ],
+                  "children": [
+                    {
+                      "name": "3. d4",
+                      "san": "d4",
+                      "ply": "w",
+                      "moveNumber": 3,
+                      "nags": [
+                        "$10"
+                      ],
+                      "comments": [
+                        "fork, center control"
+                      ]
+                    },
+                    {
+                      "name": "3... Bxd4",
+                      "san": "Bxd4",
+                      "ply": "b",
+                      "moveNumber": 3,
+                      "children": [
+                        {
+                          "name": "3... exd4",
+                          "san": "exd4",
+                          "ply": "b",
+                          "moveNumber": 3,
+                          "nags": [
+                            "$1"
+                          ],
+                          "comments": [
+                            "fork, center control"
+                          ],
+                          "children": [
+                            {
+                              "name": "3... Bb6",
+                              "san": "Bb6",
+                              "ply": "b",
+                              "moveNumber": 3,
+                              "nags": [
+                                "$14"
+                              ],
+                              "comments": [
+                                "fork"
+                              ]
+                            }
+                          ]
+                        }
+                      ],
+                      "nags": [
+                        "$10"
+                      ],
+                      "comments": [
+                        "fork, center control"
+                      ]
+                    }
                   ]
                 },
                 {
@@ -1541,18 +2377,20 @@
                       ],
                       "comments": [
                         "fork"
-                      ]
-                    },
-                    {
-                      "name": "3... Nc6",
-                      "san": "Nc6",
-                      "ply": "b",
-                      "moveNumber": 3,
-                      "nags": [
-                        "$10"
                       ],
-                      "comments": [
-                        "fork, development"
+                      "children": [
+                        {
+                          "name": "3... Nc6",
+                          "san": "Nc6",
+                          "ply": "b",
+                          "moveNumber": 3,
+                          "nags": [
+                            "$10"
+                          ],
+                          "comments": [
+                            "fork, development"
+                          ]
+                        }
                       ]
                     }
                   ],
@@ -1561,56 +2399,6 @@
                   ],
                   "comments": [
                     "fork, development"
-                  ]
-                },
-                {
-                  "name": "3. d4",
-                  "san": "d4",
-                  "ply": "w",
-                  "moveNumber": 3,
-                  "nags": [
-                    "$10"
-                  ],
-                  "comments": [
-                    "fork, center control"
-                  ]
-                },
-                {
-                  "name": "3... Bxd4",
-                  "san": "Bxd4",
-                  "ply": "b",
-                  "moveNumber": 3,
-                  "children": [
-                    {
-                      "name": "3... exd4",
-                      "san": "exd4",
-                      "ply": "b",
-                      "moveNumber": 3,
-                      "nags": [
-                        "$1"
-                      ],
-                      "comments": [
-                        "fork, center control"
-                      ]
-                    },
-                    {
-                      "name": "3... Bb6",
-                      "san": "Bb6",
-                      "ply": "b",
-                      "moveNumber": 3,
-                      "nags": [
-                        "$14"
-                      ],
-                      "comments": [
-                        "fork"
-                      ]
-                    }
-                  ],
-                  "nags": [
-                    "$10"
-                  ],
-                  "comments": [
-                    "fork, center control"
                   ]
                 }
               ],
@@ -1637,182 +2425,20 @@
                   ],
                   "comments": [
                     "fork"
-                  ]
-                },
-                {
-                  "name": "3... Qe7",
-                  "san": "Qe7",
-                  "ply": "b",
-                  "moveNumber": 3,
-                  "nags": [
-                    "$1"
                   ],
-                  "comments": [
-                    "fork"
-                  ]
-                }
-              ],
-              "nags": [
-                "$10"
-              ],
-              "comments": [
-                "fork, development"
-              ]
-            },
-            {
-              "name": "2... Nc6",
-              "san": "Nc6",
-              "ply": "b",
-              "moveNumber": 2,
-              "nags": [
-                "$10"
-              ],
-              "comments": [
-                "fork, development"
-              ]
-            },
-            {
-              "name": "3. d3",
-              "san": "d3",
-              "ply": "w",
-              "moveNumber": 3,
-              "children": [
-                {
-                  "name": "3. Nf3",
-                  "san": "Nf3",
-                  "ply": "w",
-                  "moveNumber": 3,
-                  "nags": [
-                    "$10"
-                  ],
-                  "comments": [
-                    "fork, development"
-                  ]
-                },
-                {
-                  "name": "3... Bc5",
-                  "san": "Bc5",
-                  "ply": "b",
-                  "moveNumber": 3,
                   "children": [
                     {
-                      "name": "3... Nf6",
-                      "san": "Nf6",
+                      "name": "3... Qe7",
+                      "san": "Qe7",
                       "ply": "b",
                       "moveNumber": 3,
                       "nags": [
-                        "$10"
-                      ],
-                      "comments": [
-                        "fork, development"
-                      ]
-                    },
-                    {
-                      "name": "3... Be7",
-                      "san": "Be7",
-                      "ply": "b",
-                      "moveNumber": 3,
-                      "nags": [
-                        "$10"
-                      ],
-                      "comments": [
-                        "fork, development"
-                      ]
-                    }
-                  ],
-                  "nags": [
-                    "$10"
-                  ],
-                  "comments": [
-                    "fork, development"
-                  ]
-                },
-                {
-                  "name": "3. a4",
-                  "san": "a4",
-                  "ply": "w",
-                  "moveNumber": 3,
-                  "nags": [
-                    "$10"
-                  ],
-                  "comments": [
-                    "fork"
-                  ]
-                },
-                {
-                  "name": "3... Nf6",
-                  "san": "Nf6",
-                  "ply": "b",
-                  "moveNumber": 3,
-                  "children": [
-                    {
-                      "name": "3... Bc5",
-                      "san": "Bc5",
-                      "ply": "b",
-                      "moveNumber": 3,
-                      "nags": [
-                        "$10"
-                      ],
-                      "comments": [
-                        "fork, development"
-                      ]
-                    },
-                    {
-                      "name": "3... a5",
-                      "san": "a5",
-                      "ply": "b",
-                      "moveNumber": 3,
-                      "nags": [
-                        "$10"
+                        "$1"
                       ],
                       "comments": [
                         "fork"
                       ]
                     }
-                  ],
-                  "nags": [
-                    "$10"
-                  ],
-                  "comments": [
-                    "fork, development"
-                  ]
-                }
-              ],
-              "nags": [
-                "$10"
-              ],
-              "comments": [
-                "fork"
-              ]
-            },
-            {
-              "name": "3... Nf6",
-              "san": "Nf6",
-              "ply": "b",
-              "moveNumber": 3,
-              "children": [
-                {
-                  "name": "3... Bc5",
-                  "san": "Bc5",
-                  "ply": "b",
-                  "moveNumber": 3,
-                  "nags": [
-                    "$10"
-                  ],
-                  "comments": [
-                    "fork, development"
-                  ]
-                },
-                {
-                  "name": "3... Be7",
-                  "san": "Be7",
-                  "ply": "b",
-                  "moveNumber": 3,
-                  "nags": [
-                    "$10"
-                  ],
-                  "comments": [
-                    "fork, development"
                   ]
                 }
               ],
@@ -1847,56 +2473,60 @@
               ],
               "comments": [
                 "fork, development"
-              ]
-            },
-            {
-              "name": "3... Bc5",
-              "san": "Bc5",
-              "ply": "b",
-              "moveNumber": 3,
+              ],
               "children": [
                 {
-                  "name": "3... Nc6",
-                  "san": "Nc6",
+                  "name": "3. Qe2",
+                  "san": "Qe2",
+                  "ply": "w",
+                  "moveNumber": 3,
+                  "nags": [
+                    "$10"
+                  ],
+                  "comments": [
+                    "fork"
+                  ]
+                },
+                {
+                  "name": "3... Bc5",
+                  "san": "Bc5",
                   "ply": "b",
                   "moveNumber": 3,
+                  "children": [
+                    {
+                      "name": "3... Nc6",
+                      "san": "Nc6",
+                      "ply": "b",
+                      "moveNumber": 3,
+                      "nags": [
+                        "$10"
+                      ],
+                      "comments": [
+                        "fork, development"
+                      ],
+                      "children": [
+                        {
+                          "name": "3... Be7",
+                          "san": "Be7",
+                          "ply": "b",
+                          "moveNumber": 3,
+                          "nags": [
+                            "$10"
+                          ],
+                          "comments": [
+                            "fork, development"
+                          ]
+                        }
+                      ]
+                    }
+                  ],
                   "nags": [
                     "$10"
                   ],
                   "comments": [
                     "fork, development"
-                  ]
-                },
-                {
-                  "name": "3... Nxe4",
-                  "san": "Nxe4",
-                  "ply": "b",
-                  "moveNumber": 3,
-                  "nags": [
-                    "$10"
-                  ],
-                  "comments": [
-                    "fork, center control"
                   ]
                 }
-              ],
-              "nags": [
-                "$10"
-              ],
-              "comments": [
-                "fork, development"
-              ]
-            },
-            {
-              "name": "3. Qe2",
-              "san": "Qe2",
-              "ply": "w",
-              "moveNumber": 3,
-              "nags": [
-                "$10"
-              ],
-              "comments": [
-                "fork"
               ]
             },
             {
@@ -1915,18 +2545,20 @@
                   ],
                   "comments": [
                     "fork, development"
-                  ]
-                },
-                {
-                  "name": "3... Be7",
-                  "san": "Be7",
-                  "ply": "b",
-                  "moveNumber": 3,
-                  "nags": [
-                    "$10"
                   ],
-                  "comments": [
-                    "fork, development"
+                  "children": [
+                    {
+                      "name": "3... Nxe4",
+                      "san": "Nxe4",
+                      "ply": "b",
+                      "moveNumber": 3,
+                      "nags": [
+                        "$10"
+                      ],
+                      "comments": [
+                        "fork, center control"
+                      ]
+                    }
                   ]
                 }
               ],
@@ -1961,18 +2593,20 @@
               ],
               "comments": [
                 "fork"
-              ]
-            },
-            {
-              "name": "3... Bc5",
-              "san": "Bc5",
-              "ply": "b",
-              "moveNumber": 3,
-              "nags": [
-                "$10"
               ],
-              "comments": [
-                "fork, development"
+              "children": [
+                {
+                  "name": "3... Bc5",
+                  "san": "Bc5",
+                  "ply": "b",
+                  "moveNumber": 3,
+                  "nags": [
+                    "$10"
+                  ],
+                  "comments": [
+                    "fork, development"
+                  ]
+                }
               ]
             }
           ],
@@ -1981,512 +2615,6 @@
           ],
           "comments": [
             "fork"
-          ]
-        },
-        {
-          "name": "2. Nc3",
-          "san": "Nc3",
-          "ply": "w",
-          "moveNumber": 2,
-          "nags": [
-            "$10"
-          ],
-          "comments": [
-            "fork, development"
-          ]
-        },
-        {
-          "name": "2... Nc6",
-          "san": "Nc6",
-          "ply": "b",
-          "moveNumber": 2,
-          "children": [
-            {
-              "name": "2... Nf6",
-              "san": "Nf6",
-              "ply": "b",
-              "moveNumber": 2,
-              "nags": [
-                "$10"
-              ],
-              "comments": [
-                "fork, development"
-              ]
-            },
-            {
-              "name": "3. Nf3",
-              "san": "Nf3",
-              "ply": "w",
-              "moveNumber": 3,
-              "children": [
-                {
-                  "name": "3. Bc4",
-                  "san": "Bc4",
-                  "ply": "w",
-                  "moveNumber": 3,
-                  "nags": [
-                    "$10"
-                  ],
-                  "comments": [
-                    "fork, development"
-                  ]
-                },
-                {
-                  "name": "3... Bc5",
-                  "san": "Bc5",
-                  "ply": "b",
-                  "moveNumber": 3,
-                  "children": [
-                    {
-                      "name": "3... Nc6",
-                      "san": "Nc6",
-                      "ply": "b",
-                      "moveNumber": 3,
-                      "nags": [
-                        "$10"
-                      ],
-                      "comments": [
-                        "fork, development"
-                      ]
-                    },
-                    {
-                      "name": "3... Bb4",
-                      "san": "Bb4",
-                      "ply": "b",
-                      "moveNumber": 3,
-                      "nags": [
-                        "$10"
-                      ],
-                      "comments": [
-                        "fork, development"
-                      ]
-                    }
-                  ],
-                  "nags": [
-                    "$10"
-                  ],
-                  "comments": [
-                    "fork, development"
-                  ]
-                },
-                {
-                  "name": "3. d4",
-                  "san": "d4",
-                  "ply": "w",
-                  "moveNumber": 3,
-                  "nags": [
-                    "$10"
-                  ],
-                  "comments": [
-                    "fork, center control"
-                  ]
-                },
-                {
-                  "name": "3... exd4",
-                  "san": "exd4",
-                  "ply": "b",
-                  "moveNumber": 3,
-                  "children": [
-                    {
-                      "name": "3... d6",
-                      "san": "d6",
-                      "ply": "b",
-                      "moveNumber": 3,
-                      "nags": [
-                        "$1"
-                      ],
-                      "comments": [
-                        "fork"
-                      ]
-                    },
-                    {
-                      "name": "3... Bd6",
-                      "san": "Bd6",
-                      "ply": "b",
-                      "moveNumber": 3,
-                      "nags": [
-                        "$1"
-                      ],
-                      "comments": [
-                        "fork, development"
-                      ]
-                    }
-                  ],
-                  "nags": [
-                    "$10"
-                  ],
-                  "comments": [
-                    "fork, center control"
-                  ]
-                }
-              ],
-              "nags": [
-                "$10"
-              ],
-              "comments": [
-                "fork, development"
-              ]
-            },
-            {
-              "name": "3... Nc6",
-              "san": "Nc6",
-              "ply": "b",
-              "moveNumber": 3,
-              "children": [
-                {
-                  "name": "3... Bb4",
-                  "san": "Bb4",
-                  "ply": "b",
-                  "moveNumber": 3,
-                  "nags": [
-                    "$10"
-                  ],
-                  "comments": [
-                    "fork, development"
-                  ]
-                },
-                {
-                  "name": "3... d6",
-                  "san": "d6",
-                  "ply": "b",
-                  "moveNumber": 3,
-                  "nags": [
-                    "$1"
-                  ],
-                  "comments": [
-                    "fork"
-                  ]
-                }
-              ],
-              "nags": [
-                "$10"
-              ],
-              "comments": [
-                "fork, development"
-              ]
-            },
-            {
-              "name": "2... Bc5",
-              "san": "Bc5",
-              "ply": "b",
-              "moveNumber": 2,
-              "nags": [
-                "$10"
-              ],
-              "comments": [
-                "fork, development"
-              ]
-            },
-            {
-              "name": "3. Nf3",
-              "san": "Nf3",
-              "ply": "w",
-              "moveNumber": 3,
-              "children": [
-                {
-                  "name": "3. Qh5",
-                  "san": "Qh5",
-                  "ply": "w",
-                  "moveNumber": 3,
-                  "nags": [
-                    "$10"
-                  ],
-                  "comments": [
-                    "fork"
-                  ]
-                },
-                {
-                  "name": "3... d6",
-                  "san": "d6",
-                  "ply": "b",
-                  "moveNumber": 3,
-                  "children": [
-                    {
-                      "name": "3... Nc6",
-                      "san": "Nc6",
-                      "ply": "b",
-                      "moveNumber": 3,
-                      "nags": [
-                        "$10"
-                      ],
-                      "comments": [
-                        "fork, development"
-                      ]
-                    },
-                    {
-                      "name": "3... Qe7",
-                      "san": "Qe7",
-                      "ply": "b",
-                      "moveNumber": 3,
-                      "nags": [
-                        "$1"
-                      ],
-                      "comments": [
-                        "fork"
-                      ]
-                    }
-                  ],
-                  "nags": [
-                    "$10"
-                  ],
-                  "comments": [
-                    "fork"
-                  ]
-                },
-                {
-                  "name": "3. Be2",
-                  "san": "Be2",
-                  "ply": "w",
-                  "moveNumber": 3,
-                  "nags": [
-                    "$10"
-                  ],
-                  "comments": [
-                    "fork, development"
-                  ]
-                },
-                {
-                  "name": "3... Nc6",
-                  "san": "Nc6",
-                  "ply": "b",
-                  "moveNumber": 3,
-                  "children": [
-                    {
-                      "name": "3... d6",
-                      "san": "d6",
-                      "ply": "b",
-                      "moveNumber": 3,
-                      "nags": [
-                        "$10"
-                      ],
-                      "comments": [
-                        "fork"
-                      ]
-                    },
-                    {
-                      "name": "3... Nf6",
-                      "san": "Nf6",
-                      "ply": "b",
-                      "moveNumber": 3,
-                      "nags": [
-                        "$10"
-                      ],
-                      "comments": [
-                        "fork, development"
-                      ]
-                    }
-                  ],
-                  "nags": [
-                    "$10"
-                  ],
-                  "comments": [
-                    "fork, development"
-                  ]
-                }
-              ],
-              "nags": [
-                "$10"
-              ],
-              "comments": [
-                "fork, development"
-              ]
-            },
-            {
-              "name": "3... d6",
-              "san": "d6",
-              "ply": "b",
-              "moveNumber": 3,
-              "children": [
-                {
-                  "name": "3... Nc6",
-                  "san": "Nc6",
-                  "ply": "b",
-                  "moveNumber": 3,
-                  "nags": [
-                    "$1"
-                  ],
-                  "comments": [
-                    "fork, development"
-                  ]
-                },
-                {
-                  "name": "3... Bd4",
-                  "san": "Bd4",
-                  "ply": "b",
-                  "moveNumber": 3,
-                  "nags": [
-                    "$1"
-                  ],
-                  "comments": [
-                    "fork, center control"
-                  ]
-                }
-              ],
-              "nags": [
-                "$10"
-              ],
-              "comments": [
-                "fork"
-              ]
-            }
-          ],
-          "nags": [
-            "$10"
-          ],
-          "comments": [
-            "fork, development"
-          ]
-        },
-        {
-          "name": "3. Nf3",
-          "san": "Nf3",
-          "ply": "w",
-          "moveNumber": 3,
-          "children": [
-            {
-              "name": "3. Nge2",
-              "san": "Nge2",
-              "ply": "w",
-              "moveNumber": 3,
-              "nags": [
-                "$10"
-              ],
-              "comments": [
-                "fork, development"
-              ]
-            },
-            {
-              "name": "3... Nf6",
-              "san": "Nf6",
-              "ply": "b",
-              "moveNumber": 3,
-              "children": [
-                {
-                  "name": "3... Bc5",
-                  "san": "Bc5",
-                  "ply": "b",
-                  "moveNumber": 3,
-                  "nags": [
-                    "$10"
-                  ],
-                  "comments": [
-                    "fork, development"
-                  ]
-                },
-                {
-                  "name": "3... Nd4",
-                  "san": "Nd4",
-                  "ply": "b",
-                  "moveNumber": 3,
-                  "nags": [
-                    "$10"
-                  ],
-                  "comments": [
-                    "fork, center control"
-                  ]
-                }
-              ],
-              "nags": [
-                "$10"
-              ],
-              "comments": [
-                "fork, development"
-              ]
-            },
-            {
-              "name": "3. Bc4",
-              "san": "Bc4",
-              "ply": "w",
-              "moveNumber": 3,
-              "nags": [
-                "$10"
-              ],
-              "comments": [
-                "fork, development"
-              ]
-            },
-            {
-              "name": "3... Nf6",
-              "san": "Nf6",
-              "ply": "b",
-              "moveNumber": 3,
-              "children": [
-                {
-                  "name": "3... Bc5",
-                  "san": "Bc5",
-                  "ply": "b",
-                  "moveNumber": 3,
-                  "nags": [
-                    "$10"
-                  ],
-                  "comments": [
-                    "fork, development"
-                  ]
-                },
-                {
-                  "name": "3... Be7",
-                  "san": "Be7",
-                  "ply": "b",
-                  "moveNumber": 3,
-                  "nags": [
-                    "$10"
-                  ],
-                  "comments": [
-                    "fork, development"
-                  ]
-                }
-              ],
-              "nags": [
-                "$10"
-              ],
-              "comments": [
-                "fork, development"
-              ]
-            }
-          ],
-          "nags": [
-            "$10"
-          ],
-          "comments": [
-            "fork, development"
-          ]
-        },
-        {
-          "name": "3... Nf6",
-          "san": "Nf6",
-          "ply": "b",
-          "moveNumber": 3,
-          "children": [
-            {
-              "name": "3... Bb4",
-              "san": "Bb4",
-              "ply": "b",
-              "moveNumber": 3,
-              "nags": [
-                "$10"
-              ],
-              "comments": [
-                "fork, development"
-              ]
-            },
-            {
-              "name": "3... Bc5",
-              "san": "Bc5",
-              "ply": "b",
-              "moveNumber": 3,
-              "nags": [
-                "$1"
-              ],
-              "comments": [
-                "fork, development"
-              ]
-            }
-          ],
-          "nags": [
-            "$10"
-          ],
-          "comments": [
-            "fork, development"
           ]
         }
       ],
@@ -2513,6 +2641,180 @@
           ],
           "comments": [
             "fork, development"
+          ],
+          "children": [
+            {
+              "name": "2... d6",
+              "san": "d6",
+              "ply": "b",
+              "moveNumber": 2,
+              "nags": [
+                "$1"
+              ],
+              "comments": [
+                "fork"
+              ]
+            },
+            {
+              "name": "3. d4",
+              "san": "d4",
+              "ply": "w",
+              "moveNumber": 3,
+              "children": [
+                {
+                  "name": "3. Bc4",
+                  "san": "Bc4",
+                  "ply": "w",
+                  "moveNumber": 3,
+                  "nags": [
+                    "$10"
+                  ],
+                  "comments": [
+                    "fork, development"
+                  ],
+                  "children": [
+                    {
+                      "name": "3. Nc3",
+                      "san": "Nc3",
+                      "ply": "w",
+                      "moveNumber": 3,
+                      "nags": [
+                        "$10"
+                      ],
+                      "comments": [
+                        "fork, development"
+                      ]
+                    },
+                    {
+                      "name": "3... c5",
+                      "san": "c5",
+                      "ply": "b",
+                      "moveNumber": 3,
+                      "children": [
+                        {
+                          "name": "3... Nf6",
+                          "san": "Nf6",
+                          "ply": "b",
+                          "moveNumber": 3,
+                          "nags": [
+                            "$1"
+                          ],
+                          "comments": [
+                            "fork, development"
+                          ],
+                          "children": [
+                            {
+                              "name": "3... Nd7",
+                              "san": "Nd7",
+                              "ply": "b",
+                              "moveNumber": 3,
+                              "nags": [
+                                "$1"
+                              ],
+                              "comments": [
+                                "fork, development"
+                              ]
+                            }
+                          ]
+                        }
+                      ],
+                      "nags": [
+                        "$10"
+                      ],
+                      "comments": [
+                        "fork"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "name": "3... Nf6",
+                  "san": "Nf6",
+                  "ply": "b",
+                  "moveNumber": 3,
+                  "children": [
+                    {
+                      "name": "3... Be7",
+                      "san": "Be7",
+                      "ply": "b",
+                      "moveNumber": 3,
+                      "nags": [
+                        "$10"
+                      ],
+                      "comments": [
+                        "fork, development"
+                      ],
+                      "children": [
+                        {
+                          "name": "3... Nc6",
+                          "san": "Nc6",
+                          "ply": "b",
+                          "moveNumber": 3,
+                          "nags": [
+                            "$10"
+                          ],
+                          "comments": [
+                            "fork, development"
+                          ]
+                        }
+                      ]
+                    }
+                  ],
+                  "nags": [
+                    "$10"
+                  ],
+                  "comments": [
+                    "fork, development"
+                  ]
+                }
+              ],
+              "nags": [
+                "$1"
+              ],
+              "comments": [
+                "fork, center control"
+              ]
+            },
+            {
+              "name": "3... exd4",
+              "san": "exd4",
+              "ply": "b",
+              "moveNumber": 3,
+              "children": [
+                {
+                  "name": "3... Nf6",
+                  "san": "Nf6",
+                  "ply": "b",
+                  "moveNumber": 3,
+                  "nags": [
+                    "$1"
+                  ],
+                  "comments": [
+                    "fork, development"
+                  ],
+                  "children": [
+                    {
+                      "name": "3... Nd7",
+                      "san": "Nd7",
+                      "ply": "b",
+                      "moveNumber": 3,
+                      "nags": [
+                        "$1"
+                      ],
+                      "comments": [
+                        "fork, development"
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "nags": [
+                "$1"
+              ],
+              "comments": [
+                "fork, center control"
+              ]
+            }
           ]
         },
         {
@@ -2531,6 +2833,60 @@
               ],
               "comments": [
                 "fork, center control"
+              ],
+              "children": [
+                {
+                  "name": "3. Nc3",
+                  "san": "Nc3",
+                  "ply": "w",
+                  "moveNumber": 3,
+                  "nags": [
+                    "$10"
+                  ],
+                  "comments": [
+                    "fork, development"
+                  ]
+                },
+                {
+                  "name": "3... Nc6",
+                  "san": "Nc6",
+                  "ply": "b",
+                  "moveNumber": 3,
+                  "children": [
+                    {
+                      "name": "3... Bb4",
+                      "san": "Bb4",
+                      "ply": "b",
+                      "moveNumber": 3,
+                      "nags": [
+                        "$10"
+                      ],
+                      "comments": [
+                        "fork, development"
+                      ],
+                      "children": [
+                        {
+                          "name": "3... d6",
+                          "san": "d6",
+                          "ply": "b",
+                          "moveNumber": 3,
+                          "nags": [
+                            "$1"
+                          ],
+                          "comments": [
+                            "fork"
+                          ]
+                        }
+                      ]
+                    }
+                  ],
+                  "nags": [
+                    "$10"
+                  ],
+                  "comments": [
+                    "fork, development"
+                  ]
+                }
               ]
             },
             {
@@ -2549,18 +2905,20 @@
                   ],
                   "comments": [
                     "fork, center control"
-                  ]
-                },
-                {
-                  "name": "3... exd4",
-                  "san": "exd4",
-                  "ply": "b",
-                  "moveNumber": 3,
-                  "nags": [
-                    "$1"
                   ],
-                  "comments": [
-                    "fork, center control"
+                  "children": [
+                    {
+                      "name": "3... exd4",
+                      "san": "exd4",
+                      "ply": "b",
+                      "moveNumber": 3,
+                      "nags": [
+                        "$1"
+                      ],
+                      "comments": [
+                        "fork, center control"
+                      ]
+                    }
                   ]
                 }
               ],
@@ -2569,56 +2927,6 @@
               ],
               "comments": [
                 "fork, center control"
-              ]
-            },
-            {
-              "name": "3. Nc3",
-              "san": "Nc3",
-              "ply": "w",
-              "moveNumber": 3,
-              "nags": [
-                "$10"
-              ],
-              "comments": [
-                "fork, development"
-              ]
-            },
-            {
-              "name": "3... Nc6",
-              "san": "Nc6",
-              "ply": "b",
-              "moveNumber": 3,
-              "children": [
-                {
-                  "name": "3... Bb4",
-                  "san": "Bb4",
-                  "ply": "b",
-                  "moveNumber": 3,
-                  "nags": [
-                    "$10"
-                  ],
-                  "comments": [
-                    "fork, development"
-                  ]
-                },
-                {
-                  "name": "3... d6",
-                  "san": "d6",
-                  "ply": "b",
-                  "moveNumber": 3,
-                  "nags": [
-                    "$1"
-                  ],
-                  "comments": [
-                    "fork"
-                  ]
-                }
-              ],
-              "nags": [
-                "$10"
-              ],
-              "comments": [
-                "fork, development"
               ]
             }
           ],
@@ -2645,18 +2953,20 @@
               ],
               "comments": [
                 "fork, center control"
-              ]
-            },
-            {
-              "name": "3... Qe7",
-              "san": "Qe7",
-              "ply": "b",
-              "moveNumber": 3,
-              "nags": [
-                "$1"
               ],
-              "comments": [
-                "fork"
+              "children": [
+                {
+                  "name": "3... Qe7",
+                  "san": "Qe7",
+                  "ply": "b",
+                  "moveNumber": 3,
+                  "nags": [
+                    "$1"
+                  ],
+                  "comments": [
+                    "fork"
+                  ]
+                }
               ]
             }
           ],
@@ -2665,170 +2975,6 @@
           ],
           "comments": [
             "fork"
-          ]
-        },
-        {
-          "name": "2... d6",
-          "san": "d6",
-          "ply": "b",
-          "moveNumber": 2,
-          "nags": [
-            "$1"
-          ],
-          "comments": [
-            "fork"
-          ]
-        },
-        {
-          "name": "3. d4",
-          "san": "d4",
-          "ply": "w",
-          "moveNumber": 3,
-          "children": [
-            {
-              "name": "3. Bc4",
-              "san": "Bc4",
-              "ply": "w",
-              "moveNumber": 3,
-              "nags": [
-                "$10"
-              ],
-              "comments": [
-                "fork, development"
-              ]
-            },
-            {
-              "name": "3... Nf6",
-              "san": "Nf6",
-              "ply": "b",
-              "moveNumber": 3,
-              "children": [
-                {
-                  "name": "3... Be7",
-                  "san": "Be7",
-                  "ply": "b",
-                  "moveNumber": 3,
-                  "nags": [
-                    "$10"
-                  ],
-                  "comments": [
-                    "fork, development"
-                  ]
-                },
-                {
-                  "name": "3... Nc6",
-                  "san": "Nc6",
-                  "ply": "b",
-                  "moveNumber": 3,
-                  "nags": [
-                    "$10"
-                  ],
-                  "comments": [
-                    "fork, development"
-                  ]
-                }
-              ],
-              "nags": [
-                "$10"
-              ],
-              "comments": [
-                "fork, development"
-              ]
-            },
-            {
-              "name": "3. Nc3",
-              "san": "Nc3",
-              "ply": "w",
-              "moveNumber": 3,
-              "nags": [
-                "$10"
-              ],
-              "comments": [
-                "fork, development"
-              ]
-            },
-            {
-              "name": "3... c5",
-              "san": "c5",
-              "ply": "b",
-              "moveNumber": 3,
-              "children": [
-                {
-                  "name": "3... Nf6",
-                  "san": "Nf6",
-                  "ply": "b",
-                  "moveNumber": 3,
-                  "nags": [
-                    "$1"
-                  ],
-                  "comments": [
-                    "fork, development"
-                  ]
-                },
-                {
-                  "name": "3... Nd7",
-                  "san": "Nd7",
-                  "ply": "b",
-                  "moveNumber": 3,
-                  "nags": [
-                    "$1"
-                  ],
-                  "comments": [
-                    "fork, development"
-                  ]
-                }
-              ],
-              "nags": [
-                "$10"
-              ],
-              "comments": [
-                "fork"
-              ]
-            }
-          ],
-          "nags": [
-            "$1"
-          ],
-          "comments": [
-            "fork, center control"
-          ]
-        },
-        {
-          "name": "3... exd4",
-          "san": "exd4",
-          "ply": "b",
-          "moveNumber": 3,
-          "children": [
-            {
-              "name": "3... Nf6",
-              "san": "Nf6",
-              "ply": "b",
-              "moveNumber": 3,
-              "nags": [
-                "$1"
-              ],
-              "comments": [
-                "fork, development"
-              ]
-            },
-            {
-              "name": "3... Nd7",
-              "san": "Nd7",
-              "ply": "b",
-              "moveNumber": 3,
-              "nags": [
-                "$1"
-              ],
-              "comments": [
-                "fork, development"
-              ]
-            }
-          ],
-          "nags": [
-            "$1"
-          ],
-          "comments": [
-            "fork, center control"
           ]
         }
       ],
@@ -2855,6 +3001,60 @@
           ],
           "comments": [
             "fork, center control"
+          ],
+          "children": [
+            {
+              "name": "3. Bc4",
+              "san": "Bc4",
+              "ply": "w",
+              "moveNumber": 3,
+              "nags": [
+                "$10"
+              ],
+              "comments": [
+                "fork, development"
+              ]
+            },
+            {
+              "name": "3... Bc5",
+              "san": "Bc5",
+              "ply": "b",
+              "moveNumber": 3,
+              "children": [
+                {
+                  "name": "3... Nf6",
+                  "san": "Nf6",
+                  "ply": "b",
+                  "moveNumber": 3,
+                  "nags": [
+                    "$10"
+                  ],
+                  "comments": [
+                    "fork, development"
+                  ],
+                  "children": [
+                    {
+                      "name": "3... d6",
+                      "san": "d6",
+                      "ply": "b",
+                      "moveNumber": 3,
+                      "nags": [
+                        "$10"
+                      ],
+                      "comments": [
+                        "fork"
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "nags": [
+                "$10"
+              ],
+              "comments": [
+                "fork, development"
+              ]
+            }
           ]
         },
         {
@@ -2873,18 +3073,20 @@
               ],
               "comments": [
                 "fork, center control"
-              ]
-            },
-            {
-              "name": "3... d6",
-              "san": "d6",
-              "ply": "b",
-              "moveNumber": 3,
-              "nags": [
-                "$1"
               ],
-              "comments": [
-                "fork"
+              "children": [
+                {
+                  "name": "3... d6",
+                  "san": "d6",
+                  "ply": "b",
+                  "moveNumber": 3,
+                  "nags": [
+                    "$1"
+                  ],
+                  "comments": [
+                    "fork"
+                  ]
+                }
               ]
             }
           ],
@@ -2893,56 +3095,6 @@
           ],
           "comments": [
             "fork, center control"
-          ]
-        },
-        {
-          "name": "3. Bc4",
-          "san": "Bc4",
-          "ply": "w",
-          "moveNumber": 3,
-          "nags": [
-            "$10"
-          ],
-          "comments": [
-            "fork, development"
-          ]
-        },
-        {
-          "name": "3... Bc5",
-          "san": "Bc5",
-          "ply": "b",
-          "moveNumber": 3,
-          "children": [
-            {
-              "name": "3... Nf6",
-              "san": "Nf6",
-              "ply": "b",
-              "moveNumber": 3,
-              "nags": [
-                "$10"
-              ],
-              "comments": [
-                "fork, development"
-              ]
-            },
-            {
-              "name": "3... d6",
-              "san": "d6",
-              "ply": "b",
-              "moveNumber": 3,
-              "nags": [
-                "$10"
-              ],
-              "comments": [
-                "fork"
-              ]
-            }
-          ],
-          "nags": [
-            "$10"
-          ],
-          "comments": [
-            "fork, development"
           ]
         }
       ],
@@ -2969,18 +3121,20 @@
           ],
           "comments": [
             "fork"
-          ]
-        },
-        {
-          "name": "3... Nd4",
-          "san": "Nd4",
-          "ply": "b",
-          "moveNumber": 3,
-          "nags": [
-            "$10"
           ],
-          "comments": [
-            "fork, center control"
+          "children": [
+            {
+              "name": "3... Nd4",
+              "san": "Nd4",
+              "ply": "b",
+              "moveNumber": 3,
+              "nags": [
+                "$10"
+              ],
+              "comments": [
+                "fork, center control"
+              ]
+            }
           ]
         }
       ],
