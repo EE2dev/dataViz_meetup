@@ -7,6 +7,7 @@ A collection of useful tips and commands for getting more out of Claude Code.
 - **`/plugin install claude-code-setup@claude-plugins-official`** — Recommended first step after installing Claude Code. Sets up sensible defaults and configuration automatically.
 ## Skills
  
+- **[Anthropic's Guide to Building Skills](https://resources.anthropic.com/hubfs/The-Complete-Guide-to-Building-Skill-for-Claude.pdf)** - The complete guide to building skills for Claude
 - **[grill-me](https://github.com/mattpocock/skills/blob/733d312884b3878a9a9cff693c5886943753a741/skills/productivity/grill-me/SKILL.md)** — A skill that has Claude quiz and challenge you on a topic to deepen your understanding.
 - **[grill-with-docs](https://github.com/mattpocock/skills/blob/main/skills/engineering/grill-with-docs/SKILL.md)** — Like grill-me, but grounded in specific documentation — great for learning a new library or API.
 ## Interface & Modes
